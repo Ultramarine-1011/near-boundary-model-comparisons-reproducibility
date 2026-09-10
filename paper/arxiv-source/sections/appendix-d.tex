@@ -1,0 +1,15 @@
+The Gaussian--Bonferroni diagnostic uses looks \(\lceil20\cdot1.5^j\rceil\) up to \(N\), critical value \(\Phi^{-1}(1-\alpha/(2K))\), sample standard deviation and a finite-population variance correction. It applies the same three labels and returns exact truth at census. Marginal Gaussian pivots are approximate for arbitrary finite vectors; multiplicity correction alone does not make them exact. Certified methods inspect every item, so this is not an inspection-frequency ablation.
+
+This is not Arviv et al.'s Pocock/gsDesign engine. Their source rejects nonpositive aggregate variance; this diagnostic permits zero-width intervals. A failure here cannot be attributed to their implementation.
+
+The Gaussian diagnostic applies multiplicity correction at predeclared looks but retains an approximate sample-variance pivot. On a vector with one 1 and \(N\)-1 zeros, using \(\epsilon\)=.5/\(N\), its decision errors are 292/300 at \(N=1000\) and 299/300 at \(N=5000\), at mean cost fractions .046 and .007. Both certified methods reach census on these runs with no errors; the two-sided 95\% upper binomial limit for zero errors in 300 runs is .01222. This example diagnoses unsupported marginal calibration when rare outcomes have not yet appeared, not optional peeking alone.
+
+The original simulations distinguish full-path miscoverage from final decision error. The former assesses the confidence sequence; the latter assesses the returned label. Neither empirical quantity replaces a uniform guarantee.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=.7\textwidth]{figures/gaussian_diagnostic.pdf}
+\caption{Rare-event diagnostic: mean cost versus error frequency for two fixed populations (\(N=1000\) and 5000), with 300 permutations per method. Coincident certified-method points overlap. The horizontal line marks \(\alpha=.05\). This panel diagnoses marginal calibration and is separate from the central cost evidence.}\label{fig:gaussian}
+\end{figure}
+
+

@@ -1,0 +1,6 @@
+{
+  "rows": 66600,
+  "sha256": "e5ac492b6cb11854e114a0fcba531e987380b64d06a5295b090a599fdc0c6e44",
+  "exact_replay_match": true,
+  "scope": "Repeat execution of boundary revision; original full clean rebuild is unchanged."
+}

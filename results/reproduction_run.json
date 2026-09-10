@@ -1,0 +1,77 @@
+[
+  {
+    "arguments": [
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-v"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 5.844698190689087
+  },
+  {
+    "arguments": [
+      "scripts/summarize.py"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 10.945905447006226
+  },
+  {
+    "arguments": [
+      "scripts/summarize_additional.py"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 0.6903002262115479
+  },
+  {
+    "arguments": [
+      "scripts/summarize_followups.py"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 2.0426392555236816
+  },
+  {
+    "arguments": [
+      "scripts/summarize_joint.py"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 0.6105172634124756
+  },
+  {
+    "arguments": [
+      "scripts/summarize_lowrank.py"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 0.6328549385070801
+  },
+  {
+    "arguments": [
+      "scripts/plot_followups.py"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 1.355677604675293
+  },
+  {
+    "arguments": [
+      "scripts/audit_results.py"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 4.705867052078247
+  },
+  {
+    "arguments": [
+      "scripts/audit_targets.py"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 5.839258193969727
+  },
+  {
+    "arguments": [
+      "scripts/build_manuscript.py"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 0.06331062316894531
+  }
+]

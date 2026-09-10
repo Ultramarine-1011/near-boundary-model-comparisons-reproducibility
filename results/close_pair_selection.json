@@ -1,0 +1,2242 @@
+[
+  {
+    "dataset": "arc",
+    "cohort": "top_adjacent",
+    "pair": 0,
+    "a": "jsfs11/MixtureofMerges-MoE-4x7b-v3",
+    "b": "MSL7/INEX8-7B",
+    "delta": 0.001184834123222749
+  },
+  {
+    "dataset": "arc",
+    "cohort": "top_adjacent",
+    "pair": 1,
+    "a": "MSL7/INEX8-7B",
+    "b": "Kukedlc/NeuralExperiment-7b-dare-ties",
+    "delta": 0.0
+  },
+  {
+    "dataset": "arc",
+    "cohort": "top_adjacent",
+    "pair": 2,
+    "a": "Kukedlc/NeuralExperiment-7b-dare-ties",
+    "b": "Gille/StrangeMerges_24-7B-slerp",
+    "delta": 0.0
+  },
+  {
+    "dataset": "arc",
+    "cohort": "top_adjacent",
+    "pair": 3,
+    "a": "Gille/StrangeMerges_24-7B-slerp",
+    "b": "Muhammad2003/Myriad-7B-Slerp",
+    "delta": 0.002369668246445498
+  },
+  {
+    "dataset": "arc",
+    "cohort": "top_adjacent",
+    "pair": 4,
+    "a": "Muhammad2003/Myriad-7B-Slerp",
+    "b": "automerger/OgnoExperiment27-7B",
+    "delta": 0.0
+  },
+  {
+    "dataset": "arc",
+    "cohort": "top_adjacent",
+    "pair": 5,
+    "a": "automerger/OgnoExperiment27-7B",
+    "b": "louisgrc/Marengoli_7B_SLERP",
+    "delta": 0.0
+  },
+  {
+    "dataset": "arc",
+    "cohort": "top_adjacent",
+    "pair": 6,
+    "a": "louisgrc/Marengoli_7B_SLERP",
+    "b": "automerger/ShadowYam-7B",
+    "delta": 0.001184834123222749
+  },
+  {
+    "dataset": "arc",
+    "cohort": "top_adjacent",
+    "pair": 7,
+    "a": "automerger/ShadowYam-7B",
+    "b": "Gille/StrangeMerges_22-7B-slerp",
+    "delta": 0.0
+  },
+  {
+    "dataset": "arc",
+    "cohort": "top_adjacent",
+    "pair": 8,
+    "a": "Gille/StrangeMerges_22-7B-slerp",
+    "b": "macadeliccc/MBX-7B-v3-DPO",
+    "delta": 0.0
+  },
+  {
+    "dataset": "arc",
+    "cohort": "top_adjacent",
+    "pair": 9,
+    "a": "macadeliccc/MBX-7B-v3-DPO",
+    "b": "Kukedlc/NeuralKrishnaMath-7B-slerp",
+    "delta": 0.0
+  },
+  {
+    "dataset": "arc",
+    "cohort": "top_adjacent",
+    "pair": 10,
+    "a": "Kukedlc/NeuralKrishnaMath-7B-slerp",
+    "b": "Kukedlc/NeuralSynthesis-7b-v0.4-slerp",
+    "delta": 0.001184834123222749
+  },
+  {
+    "dataset": "arc",
+    "cohort": "top_adjacent",
+    "pair": 11,
+    "a": "Kukedlc/NeuralSynthesis-7b-v0.4-slerp",
+    "b": "SC99/Mistral-7B-privatemix-ia3",
+    "delta": 0.0
+  },
+  {
+    "dataset": "arc",
+    "cohort": "top_adjacent",
+    "pair": 12,
+    "a": "SC99/Mistral-7B-privatemix-ia3",
+    "b": "nbeerbower/HeroBophades-2x7B",
+    "delta": 0.0
+  },
+  {
+    "dataset": "arc",
+    "cohort": "top_adjacent",
+    "pair": 13,
+    "a": "nbeerbower/HeroBophades-2x7B",
+    "b": "allknowingroger/mergekit-slerp-zplzqvn",
+    "delta": 0.0
+  },
+  {
+    "dataset": "arc",
+    "cohort": "top_adjacent",
+    "pair": 14,
+    "a": "allknowingroger/mergekit-slerp-zplzqvn",
+    "b": "abideen/AlphaMonarch-laser",
+    "delta": 0.0
+  },
+  {
+    "dataset": "arc",
+    "cohort": "top_adjacent",
+    "pair": 15,
+    "a": "abideen/AlphaMonarch-laser",
+    "b": "jefferylovely/AiMaven-Merkaba-7b",
+    "delta": 0.0
+  },
+  {
+    "dataset": "arc",
+    "cohort": "top_adjacent",
+    "pair": 16,
+    "a": "jefferylovely/AiMaven-Merkaba-7b",
+    "b": "Test157t/Eris-Floramix-7b",
+    "delta": 0.001184834123222749
+  },
+  {
+    "dataset": "arc",
+    "cohort": "top_adjacent",
+    "pair": 17,
+    "a": "Test157t/Eris-Floramix-7b",
+    "b": "eren23/slerp-test-turdus-beagle",
+    "delta": 0.0
+  },
+  {
+    "dataset": "arc",
+    "cohort": "top_adjacent",
+    "pair": 18,
+    "a": "eren23/slerp-test-turdus-beagle",
+    "b": "paulml/DPOB-NMTOB-7B",
+    "delta": 0.0
+  },
+  {
+    "dataset": "arc",
+    "cohort": "top_adjacent",
+    "pair": 19,
+    "a": "paulml/DPOB-NMTOB-7B",
+    "b": "Kukedlc/Neural-Krishna-Multiverse-7b-v3",
+    "delta": 0.0
+  },
+  {
+    "dataset": "arc",
+    "cohort": "margin_nearest",
+    "pair": 0,
+    "a": "Weyaxi/Einstein-bagel-7B",
+    "b": "Radu1999/MisterUkrainianDPO",
+    "delta": -0.02014218009478673
+  },
+  {
+    "dataset": "arc",
+    "cohort": "margin_nearest",
+    "pair": 1,
+    "a": "Weyaxi/Einstein-bagel-7B",
+    "b": "abacusai/Llama-3-Giraffe-70B-Instruct",
+    "delta": -0.02014218009478673
+  },
+  {
+    "dataset": "arc",
+    "cohort": "margin_nearest",
+    "pair": 2,
+    "a": "Weyaxi/Einstein-bagel-7B",
+    "b": "DreadPoor/PAIN_LeDestroy-7B-task_arithmetic",
+    "delta": -0.02014218009478673
+  },
+  {
+    "dataset": "arc",
+    "cohort": "margin_nearest",
+    "pair": 3,
+    "a": "AGI-0/ThetaWave-7B-v0.1",
+    "b": "Steelskull/Lumosia-MoE-4x10.7",
+    "delta": -0.02014218009478673
+  },
+  {
+    "dataset": "arc",
+    "cohort": "margin_nearest",
+    "pair": 4,
+    "a": "Inv/Dykh-Tau-7B",
+    "b": "PulsarAI/Draco-8x7B",
+    "delta": -0.02014218009478673
+  },
+  {
+    "dataset": "arc",
+    "cohort": "margin_nearest",
+    "pair": 5,
+    "a": "azarafrooz/Mistral-7B-Instruct-v0.2-Selfplay-v0",
+    "b": "Artples/L-MChat-Small",
+    "delta": 0.02014218009478673
+  },
+  {
+    "dataset": "arc",
+    "cohort": "margin_nearest",
+    "pair": 6,
+    "a": "ewqr2130/alignment-handbook-zephyr-7b_ppo_5e7step_102",
+    "b": "Eric111/Yarn-Mistral-7b-128k-DPO",
+    "delta": -0.02014218009478673
+  },
+  {
+    "dataset": "arc",
+    "cohort": "margin_nearest",
+    "pair": 7,
+    "a": "ewqr2130/alignment-handbook-zephyr-7b_ppo_5e7step_102",
+    "b": "abideen/Mistral-v2-orpo",
+    "delta": -0.02014218009478673
+  },
+  {
+    "dataset": "arc",
+    "cohort": "margin_nearest",
+    "pair": 8,
+    "a": "ewqr2130/alignment-handbook-zephyr-7b_ppo_5e7step_102",
+    "b": "AA051615/A0305a",
+    "delta": -0.02014218009478673
+  },
+  {
+    "dataset": "arc",
+    "cohort": "margin_nearest",
+    "pair": 9,
+    "a": "ewqr2130/alignment-handbook-zephyr-7b_ppo_5e7step_102",
+    "b": "0-hero/Matter-0.1-Slim-7B-B",
+    "delta": -0.02014218009478673
+  },
+  {
+    "dataset": "arc",
+    "cohort": "margin_nearest",
+    "pair": 10,
+    "a": "ewqr2130/alignment-handbook-zephyr-7b_ppo_5e7step_102",
+    "b": "Joseph717171/Cerebrum-1.0-10.7B",
+    "delta": -0.02014218009478673
+  },
+  {
+    "dataset": "arc",
+    "cohort": "margin_nearest",
+    "pair": 11,
+    "a": "nextai-team/Moe-2x7b-QA-Code",
+    "b": "openlynn/Llama-3-Soliloquy-Max-70B-v1",
+    "delta": 0.02014218009478673
+  },
+  {
+    "dataset": "arc",
+    "cohort": "margin_nearest",
+    "pair": 12,
+    "a": "nextai-team/Moe-2x7b-QA-Code",
+    "b": "dreamgen/opus-v1-34b",
+    "delta": 0.02014218009478673
+  },
+  {
+    "dataset": "arc",
+    "cohort": "margin_nearest",
+    "pair": 13,
+    "a": "Radu1999/MisterUkrainianDPO",
+    "b": "Gille/StrangeMerges_2-7B-slerp",
+    "delta": 0.02014218009478673
+  },
+  {
+    "dataset": "arc",
+    "cohort": "margin_nearest",
+    "pair": 14,
+    "a": "Radu1999/MisterUkrainianDPO",
+    "b": "kyujinpy/PlatYi-34B-Llama",
+    "delta": 0.02014218009478673
+  },
+  {
+    "dataset": "arc",
+    "cohort": "margin_nearest",
+    "pair": 15,
+    "a": "Radu1999/MisterUkrainianDPO",
+    "b": "saucam/mistral-orpo-beta-NeuralBeagle14-7B-dare-ties",
+    "delta": 0.02014218009478673
+  },
+  {
+    "dataset": "arc",
+    "cohort": "margin_nearest",
+    "pair": 16,
+    "a": "Radu1999/MisterUkrainianDPO",
+    "b": "icefog72/Kunokukulemonchini-7b",
+    "delta": 0.02014218009478673
+  },
+  {
+    "dataset": "arc",
+    "cohort": "margin_nearest",
+    "pair": 17,
+    "a": "Stopwolf/Bumbar-7B-slerp",
+    "b": "Weyaxi/Instruct-v0.2-Seraph-7B",
+    "delta": 0.02014218009478673
+  },
+  {
+    "dataset": "arc",
+    "cohort": "margin_nearest",
+    "pair": 18,
+    "a": "Stopwolf/Bumbar-7B-slerp",
+    "b": "rombodawg/Everyone-Coder-4x7b-Base",
+    "delta": 0.02014218009478673
+  },
+  {
+    "dataset": "arc",
+    "cohort": "margin_nearest",
+    "pair": 19,
+    "a": "Stopwolf/Bumbar-7B-slerp",
+    "b": "bababababooey/mergekit-slerp-bxtecvo",
+    "delta": 0.02014218009478673
+  },
+  {
+    "dataset": "composite",
+    "cohort": "top_adjacent",
+    "pair": 0,
+    "a": "newsbang__Homer-v1.0-Qwen2.5-72B",
+    "b": "qingy2024__Benchmaxx-Llama-3.2-1B-Instruct",
+    "delta": 0.0028201378734071443
+  },
+  {
+    "dataset": "composite",
+    "cohort": "top_adjacent",
+    "pair": 1,
+    "a": "qingy2024__Benchmaxx-Llama-3.2-1B-Instruct",
+    "b": "Sakalti__ultiima-72B",
+    "delta": 0.00010444955086693127
+  },
+  {
+    "dataset": "composite",
+    "cohort": "top_adjacent",
+    "pair": 2,
+    "a": "Sakalti__ultiima-72B",
+    "b": "JungZoona__T3Q-qwen2.5-14b-v1.0-e3",
+    "delta": 0.0017756423647378315
+  },
+  {
+    "dataset": "composite",
+    "cohort": "top_adjacent",
+    "pair": 3,
+    "a": "JungZoona__T3Q-qwen2.5-14b-v1.0-e3",
+    "b": "shuttleai__shuttle-3",
+    "delta": 0.001148945059536244
+  },
+  {
+    "dataset": "composite",
+    "cohort": "top_adjacent",
+    "pair": 4,
+    "a": "shuttleai__shuttle-3",
+    "b": "Sakalti__ultiima-72B-v1.5",
+    "delta": 0.0020889910173386254
+  },
+  {
+    "dataset": "composite",
+    "cohort": "top_adjacent",
+    "pair": 5,
+    "a": "Sakalti__ultiima-72B-v1.5",
+    "b": "fluently-lm__FluentlyLM-Prinum",
+    "delta": 0.00020889910173386254
+  },
+  {
+    "dataset": "composite",
+    "cohort": "top_adjacent",
+    "pair": 6,
+    "a": "fluently-lm__FluentlyLM-Prinum",
+    "b": "rubenroy__Gilgamesh-72B",
+    "delta": 0.0030290369751410067
+  },
+  {
+    "dataset": "composite",
+    "cohort": "top_adjacent",
+    "pair": 7,
+    "a": "rubenroy__Gilgamesh-72B",
+    "b": "Steelskull__L3.3-Nevoria-R1-70b",
+    "delta": 0.014622937121370378
+  },
+  {
+    "dataset": "composite",
+    "cohort": "top_adjacent",
+    "pair": 8,
+    "a": "Steelskull__L3.3-Nevoria-R1-70b",
+    "b": "prithivMLmods__Galactic-Qwen-14B-Exp2",
+    "delta": 0.0013578441612701066
+  },
+  {
+    "dataset": "composite",
+    "cohort": "top_adjacent",
+    "pair": 9,
+    "a": "prithivMLmods__Galactic-Qwen-14B-Exp2",
+    "b": "raphgg__test-2.5-72B",
+    "delta": 0.00010444955086693127
+  },
+  {
+    "dataset": "composite",
+    "cohort": "top_adjacent",
+    "pair": 10,
+    "a": "raphgg__test-2.5-72B",
+    "b": "Baptiste-HUVELLE-10__LeTriomphant2.2_ECE_iLAB",
+    "delta": 0.0007311468560685189
+  },
+  {
+    "dataset": "composite",
+    "cohort": "top_adjacent",
+    "pair": 11,
+    "a": "Baptiste-HUVELLE-10__LeTriomphant2.2_ECE_iLAB",
+    "b": "Steelskull__L3.3-MS-Nevoria-70b",
+    "delta": 0.001148945059536244
+  },
+  {
+    "dataset": "composite",
+    "cohort": "top_adjacent",
+    "pair": 12,
+    "a": "Steelskull__L3.3-MS-Nevoria-70b",
+    "b": "rootxhacker__Apollo-70B",
+    "delta": 0.00020889910173386254
+  },
+  {
+    "dataset": "composite",
+    "cohort": "top_adjacent",
+    "pair": 13,
+    "a": "rootxhacker__Apollo-70B",
+    "b": "Triangle104__Set-70b",
+    "delta": 0.0014622937121370379
+  },
+  {
+    "dataset": "composite",
+    "cohort": "top_adjacent",
+    "pair": 14,
+    "a": "Triangle104__Set-70b",
+    "b": "Sakalti__ultiima-32B",
+    "delta": 0.001148945059536244
+  },
+  {
+    "dataset": "composite",
+    "cohort": "top_adjacent",
+    "pair": 15,
+    "a": "Sakalti__ultiima-32B",
+    "b": "Sao10K__70B-L3.3-Cirrus-x1",
+    "delta": 0.00010444955086693127
+  },
+  {
+    "dataset": "composite",
+    "cohort": "top_adjacent",
+    "pair": 16,
+    "a": "Sao10K__70B-L3.3-Cirrus-x1",
+    "b": "tomasmcm__sky-t1-coder-32b-flash",
+    "delta": 0.0010444955086693127
+  },
+  {
+    "dataset": "composite",
+    "cohort": "top_adjacent",
+    "pair": 17,
+    "a": "tomasmcm__sky-t1-coder-32b-flash",
+    "b": "Tarek07__Progenitor-V1.1-LLaMa-70B",
+    "delta": 0.003969082932943388
+  },
+  {
+    "dataset": "composite",
+    "cohort": "top_adjacent",
+    "pair": 18,
+    "a": "Tarek07__Progenitor-V1.1-LLaMa-70B",
+    "b": "Quazim0t0__MFDOOM-14B",
+    "delta": 0.0006266973052015876
+  },
+  {
+    "dataset": "composite",
+    "cohort": "top_adjacent",
+    "pair": 19,
+    "a": "Quazim0t0__MFDOOM-14B",
+    "b": "Aryanne__QwentileSwap",
+    "delta": 0.00010444955086693127
+  },
+  {
+    "dataset": "composite",
+    "cohort": "margin_nearest",
+    "pair": 0,
+    "a": "sometimesanotion__Qwen2.5-14B-Vimarckoso-v3",
+    "b": "TheTsar1209__qwen-carpmuscle-v0.4.1",
+    "delta": 0.01994986421558387
+  },
+  {
+    "dataset": "composite",
+    "cohort": "margin_nearest",
+    "pair": 1,
+    "a": "Daemontatox__PathFinderAI2.0",
+    "b": "zelk12__Rv0.4DMv1t0.25-gemma-2-9B",
+    "delta": 0.01994986421558387
+  },
+  {
+    "dataset": "composite",
+    "cohort": "margin_nearest",
+    "pair": 2,
+    "a": "Daemontatox__PathFinderAI2.0",
+    "b": "suayptalha__Clarus-7B-v0.2",
+    "delta": 0.01994986421558387
+  },
+  {
+    "dataset": "composite",
+    "cohort": "margin_nearest",
+    "pair": 3,
+    "a": "Daemontatox__PathFinderAi3.0",
+    "b": "bunnycore__Phi-4-Model-Stock-v3",
+    "delta": 0.01994986421558387
+  },
+  {
+    "dataset": "composite",
+    "cohort": "margin_nearest",
+    "pair": 4,
+    "a": "Daemontatox__CogitoZ",
+    "b": "sometimesanotion__Qwenvergence-14B-v12-Prose",
+    "delta": 0.01994986421558387
+  },
+  {
+    "dataset": "composite",
+    "cohort": "margin_nearest",
+    "pair": 5,
+    "a": "unsloth__phi-4-bnb-4bit",
+    "b": "arcee-ai__Arcee-Blitz",
+    "delta": -0.01994986421558387
+  },
+  {
+    "dataset": "composite",
+    "cohort": "margin_nearest",
+    "pair": 6,
+    "a": "bunnycore__Phi-4-Stock-Ex",
+    "b": "Triangle104__Phi-4-AbliteratedRP",
+    "delta": 0.01994986421558387
+  },
+  {
+    "dataset": "composite",
+    "cohort": "margin_nearest",
+    "pair": 7,
+    "a": "bunnycore__Phi-4-Stock-Ex",
+    "b": "sthenno__tempesthenno-nuslerp-001",
+    "delta": 0.01994986421558387
+  },
+  {
+    "dataset": "composite",
+    "cohort": "margin_nearest",
+    "pair": 8,
+    "a": "bunnycore__Phi-4-Stock-Ex",
+    "b": "Quazim0t0__RZA-14B-sce",
+    "delta": 0.01994986421558387
+  },
+  {
+    "dataset": "composite",
+    "cohort": "margin_nearest",
+    "pair": 9,
+    "a": "bunnycore__Phi-4-Model-Stock-v2",
+    "b": "Quazim0t0__time-14b-stock",
+    "delta": -0.01994986421558387
+  },
+  {
+    "dataset": "composite",
+    "cohort": "margin_nearest",
+    "pair": 10,
+    "a": "bunnycore__Phi-4-Model-Stock-v3",
+    "b": "Quazim0t0__Dyson-14b",
+    "delta": -0.01994986421558387
+  },
+  {
+    "dataset": "composite",
+    "cohort": "margin_nearest",
+    "pair": 11,
+    "a": "sometimesanotion__Qwenvergence-14B-v12-Prose",
+    "b": "prithivMLmods__Primal-Opus-14B-Optimus-v2",
+    "delta": -0.01994986421558387
+  },
+  {
+    "dataset": "composite",
+    "cohort": "margin_nearest",
+    "pair": 12,
+    "a": "arcee-ai__Arcee-Blitz",
+    "b": "hotmailuser__Mistral-modelstock2-24B",
+    "delta": 0.01994986421558387
+  },
+  {
+    "dataset": "composite",
+    "cohort": "margin_nearest",
+    "pair": 13,
+    "a": "bamec66557__MISCHIEVOUS-12B-Mix_0.6v",
+    "b": "open-thoughts__OpenThinker-7B",
+    "delta": -0.01994986421558387
+  },
+  {
+    "dataset": "composite",
+    "cohort": "margin_nearest",
+    "pair": 14,
+    "a": "bamec66557__MISCHIEVOUS-12B-Mix_0.6v",
+    "b": "DreadPoor__H_the_eighth-8B-LINEAR",
+    "delta": -0.01994986421558387
+  },
+  {
+    "dataset": "composite",
+    "cohort": "margin_nearest",
+    "pair": 15,
+    "a": "bamec66557__VICIOUS_MESH-12B-GAMMA",
+    "b": "khoantap__llama-evolve-ties-best-merge",
+    "delta": -0.01994986421558387
+  },
+  {
+    "dataset": "composite",
+    "cohort": "margin_nearest",
+    "pair": 16,
+    "a": "CultriX__Qwen2.5-14B-Emergedv3",
+    "b": "prithivMLmods__Triangulum-10B",
+    "delta": 0.01994986421558387
+  },
+  {
+    "dataset": "composite",
+    "cohort": "margin_nearest",
+    "pair": 17,
+    "a": "bamec66557__VICIOUS_MESH-12B-NEMO",
+    "b": "Quazim0t0__GivingTree-8b-sce",
+    "delta": 0.01994986421558387
+  },
+  {
+    "dataset": "composite",
+    "cohort": "margin_nearest",
+    "pair": 18,
+    "a": "hotmailuser__Falcon3Slerp1-10B",
+    "b": "neopolita__jessi-v0.5-falcon3-7b-instruct",
+    "delta": 0.01994986421558387
+  },
+  {
+    "dataset": "composite",
+    "cohort": "margin_nearest",
+    "pair": 19,
+    "a": "hotmailuser__Llama-Hermes-slerp2-8B",
+    "b": "bfuzzy1__llambses-1",
+    "delta": 0.01994986421558387
+  },
+  {
+    "dataset": "gsm8k",
+    "cohort": "top_adjacent",
+    "pair": 0,
+    "a": "MTSAIR/MultiVerse_70B",
+    "b": "cloudyu/Yi-34Bx2-MoE-60B",
+    "delta": 0.013016845329249618
+  },
+  {
+    "dataset": "gsm8k",
+    "cohort": "top_adjacent",
+    "pair": 1,
+    "a": "cloudyu/Yi-34Bx2-MoE-60B",
+    "b": "SF-Foundation/Ein-70B-v2",
+    "delta": 0.0007656967840735069
+  },
+  {
+    "dataset": "gsm8k",
+    "cohort": "top_adjacent",
+    "pair": 2,
+    "a": "SF-Foundation/Ein-70B-v2",
+    "b": "rhysjones/Phi-3-mini-mango-1-llamafied",
+    "delta": 0.006891271056661562
+  },
+  {
+    "dataset": "gsm8k",
+    "cohort": "top_adjacent",
+    "pair": 3,
+    "a": "rhysjones/Phi-3-mini-mango-1-llamafied",
+    "b": "PetroGPT/WestSeverus-7B-DPO",
+    "delta": 0.015313935681470138
+  },
+  {
+    "dataset": "gsm8k",
+    "cohort": "top_adjacent",
+    "pair": 4,
+    "a": "PetroGPT/WestSeverus-7B-DPO",
+    "b": "cookinai/OpenCM-14",
+    "delta": 0.0030627871362940277
+  },
+  {
+    "dataset": "gsm8k",
+    "cohort": "top_adjacent",
+    "pair": 5,
+    "a": "cookinai/OpenCM-14",
+    "b": "cloudyu/Yi-34Bx3-MoE-90B",
+    "delta": 0.0007656967840735069
+  },
+  {
+    "dataset": "gsm8k",
+    "cohort": "top_adjacent",
+    "pair": 6,
+    "a": "cloudyu/Yi-34Bx3-MoE-90B",
+    "b": "jsfs11/MoEv4Config-TestWeightedTIES-7b",
+    "delta": 0.0007656967840735069
+  },
+  {
+    "dataset": "gsm8k",
+    "cohort": "top_adjacent",
+    "pair": 7,
+    "a": "jsfs11/MoEv4Config-TestWeightedTIES-7b",
+    "b": "abacusai/Slerp-CM-mist-dpo",
+    "delta": 0.0
+  },
+  {
+    "dataset": "gsm8k",
+    "cohort": "top_adjacent",
+    "pair": 8,
+    "a": "abacusai/Slerp-CM-mist-dpo",
+    "b": "allknowingroger/Neuralmaath-12B-MoE",
+    "delta": 0.0030627871362940277
+  },
+  {
+    "dataset": "gsm8k",
+    "cohort": "top_adjacent",
+    "pair": 9,
+    "a": "allknowingroger/Neuralmaath-12B-MoE",
+    "b": "chanwit/flux-7b-v0.1",
+    "delta": 0.0007656967840735069
+  },
+  {
+    "dataset": "gsm8k",
+    "cohort": "top_adjacent",
+    "pair": 10,
+    "a": "chanwit/flux-7b-v0.1",
+    "b": "abacusai/MM-OV-bagel-DPO-34b-c1000-250",
+    "delta": 0.0015313935681470138
+  },
+  {
+    "dataset": "gsm8k",
+    "cohort": "top_adjacent",
+    "pair": 11,
+    "a": "abacusai/MM-OV-bagel-DPO-34b-c1000-250",
+    "b": "Gille/StrangeMerges_52-7B-dare_ties",
+    "delta": 0.0
+  },
+  {
+    "dataset": "gsm8k",
+    "cohort": "top_adjacent",
+    "pair": 12,
+    "a": "Gille/StrangeMerges_52-7B-dare_ties",
+    "b": "janhq/supermario-v2",
+    "delta": 0.0007656967840735069
+  },
+  {
+    "dataset": "gsm8k",
+    "cohort": "top_adjacent",
+    "pair": 13,
+    "a": "janhq/supermario-v2",
+    "b": "nbeerbower/llama-3-bophades-v2-8B",
+    "delta": 0.0007656967840735069
+  },
+  {
+    "dataset": "gsm8k",
+    "cohort": "top_adjacent",
+    "pair": 14,
+    "a": "nbeerbower/llama-3-bophades-v2-8B",
+    "b": "abacusai/Smaug-Mixtral-v0.1",
+    "delta": 0.0015313935681470138
+  },
+  {
+    "dataset": "gsm8k",
+    "cohort": "top_adjacent",
+    "pair": 15,
+    "a": "abacusai/Smaug-Mixtral-v0.1",
+    "b": "leveldevai/BeagleMist-7B",
+    "delta": 0.0007656967840735069
+  },
+  {
+    "dataset": "gsm8k",
+    "cohort": "top_adjacent",
+    "pair": 16,
+    "a": "leveldevai/BeagleMist-7B",
+    "b": "ibivibiv/multimaster-7b-v2",
+    "delta": 0.0
+  },
+  {
+    "dataset": "gsm8k",
+    "cohort": "top_adjacent",
+    "pair": 17,
+    "a": "ibivibiv/multimaster-7b-v2",
+    "b": "perlthoughts/Marcoroni-8x7B-v3-MoE",
+    "delta": 0.0015313935681470138
+  },
+  {
+    "dataset": "gsm8k",
+    "cohort": "top_adjacent",
+    "pair": 18,
+    "a": "perlthoughts/Marcoroni-8x7B-v3-MoE",
+    "b": "PulsarAI/MetaMath-OpenHermes-2.5-neural-chat-v3-3-Slerp",
+    "delta": 0.0007656967840735069
+  },
+  {
+    "dataset": "gsm8k",
+    "cohort": "top_adjacent",
+    "pair": 19,
+    "a": "PulsarAI/MetaMath-OpenHermes-2.5-neural-chat-v3-3-Slerp",
+    "b": "jan-hq/trinity-v1",
+    "delta": 0.0
+  },
+  {
+    "dataset": "gsm8k",
+    "cohort": "margin_nearest",
+    "pair": 0,
+    "a": "soniox/Soniox-7B-v1.0",
+    "b": "RaduGabriel/MUZ",
+    "delta": -0.019908116385911178
+  },
+  {
+    "dataset": "gsm8k",
+    "cohort": "margin_nearest",
+    "pair": 1,
+    "a": "mlabonne/NeuralBeagle14-7B",
+    "b": "Orenguteng/Llama-3-8B-Lexi-Uncensored",
+    "delta": 0.019908116385911178
+  },
+  {
+    "dataset": "gsm8k",
+    "cohort": "margin_nearest",
+    "pair": 2,
+    "a": "jondurbin/airoboros-34b-3.2",
+    "b": "vince62s/phi-2-psy",
+    "delta": -0.019908116385911178
+  },
+  {
+    "dataset": "gsm8k",
+    "cohort": "margin_nearest",
+    "pair": 3,
+    "a": "jondurbin/airoboros-34b-3.2",
+    "b": "Muhammad2003/TriMistral-7B-SLERP",
+    "delta": -0.019908116385911178
+  },
+  {
+    "dataset": "gsm8k",
+    "cohort": "margin_nearest",
+    "pair": 4,
+    "a": "quantumaikr/quantum-v0.01",
+    "b": "Orenguteng/Llama-3-8B-Lexi-Uncensored",
+    "delta": 0.019908116385911178
+  },
+  {
+    "dataset": "gsm8k",
+    "cohort": "margin_nearest",
+    "pair": 5,
+    "a": "grimjim/llama-3-experiment-v1-9B",
+    "b": "shadowml/Mixolar-4x7b",
+    "delta": 0.019908116385911178
+  },
+  {
+    "dataset": "gsm8k",
+    "cohort": "margin_nearest",
+    "pair": 6,
+    "a": "shadowml/Mixolar-4x7b",
+    "b": "JaeyeonKang/CCK_Asura_v2",
+    "delta": -0.019908116385911178
+  },
+  {
+    "dataset": "gsm8k",
+    "cohort": "margin_nearest",
+    "pair": 7,
+    "a": "Langboat/Mengzi3-13B-Base",
+    "b": "l3utterfly/mistral-7b-v0.1-layla-v4-chatml",
+    "delta": -0.019908116385911178
+  },
+  {
+    "dataset": "gsm8k",
+    "cohort": "margin_nearest",
+    "pair": 8,
+    "a": "Test157t/Prima-Pastacles-7b-128k",
+    "b": "AA051611/A0119",
+    "delta": 0.019908116385911178
+  },
+  {
+    "dataset": "gsm8k",
+    "cohort": "margin_nearest",
+    "pair": 9,
+    "a": "rwitz2/go-bruins-v2.1",
+    "b": "chanwit/flux-7b-v0.1",
+    "delta": -0.019908116385911178
+  },
+  {
+    "dataset": "gsm8k",
+    "cohort": "margin_nearest",
+    "pair": 10,
+    "a": "l3utterfly/mistral-7b-v0.1-layla-v4-chatml",
+    "b": "Medilora/medilora-mistral-7b",
+    "delta": 0.019908116385911178
+  },
+  {
+    "dataset": "gsm8k",
+    "cohort": "margin_nearest",
+    "pair": 11,
+    "a": "TomGrc/FusionNet_7Bx2_MoE_v0.1",
+    "b": "Orenguteng/Llama-3-8B-Lexi-Uncensored",
+    "delta": 0.019908116385911178
+  },
+  {
+    "dataset": "gsm8k",
+    "cohort": "margin_nearest",
+    "pair": 12,
+    "a": "chujiezheng/tulu-2-dpo-70b-ExPO",
+    "b": "AA051611/A0119",
+    "delta": 0.019908116385911178
+  },
+  {
+    "dataset": "gsm8k",
+    "cohort": "margin_nearest",
+    "pair": 13,
+    "a": "Changgil/K2S3-Mistral-7b-v1.46",
+    "b": "openthaigpt/openthaigpt-1.0.0-70b-chat",
+    "delta": 0.019908116385911178
+  },
+  {
+    "dataset": "gsm8k",
+    "cohort": "margin_nearest",
+    "pair": 14,
+    "a": "netcat420/MFANNv0.2",
+    "b": "uukuguy/Orca-2-13b-f16",
+    "delta": -0.019908116385911178
+  },
+  {
+    "dataset": "gsm8k",
+    "cohort": "margin_nearest",
+    "pair": 15,
+    "a": "Inv/Elbrus-7B",
+    "b": "GritLM/GritLM-7B",
+    "delta": -0.019908116385911178
+  },
+  {
+    "dataset": "gsm8k",
+    "cohort": "margin_nearest",
+    "pair": 16,
+    "a": "aboros98/merlin1.5",
+    "b": "pansophic/m3",
+    "delta": 0.019908116385911178
+  },
+  {
+    "dataset": "gsm8k",
+    "cohort": "margin_nearest",
+    "pair": 17,
+    "a": "hfl/llama-3-chinese-8b-instruct",
+    "b": "kyujinpy/PlatYi-34B-Llama",
+    "delta": 0.019908116385911178
+  },
+  {
+    "dataset": "gsm8k",
+    "cohort": "margin_nearest",
+    "pair": 18,
+    "a": "maywell/PiVoT-0.1-early",
+    "b": "kyujinpy/PlatYi-34B-Llama",
+    "delta": 0.019908116385911178
+  },
+  {
+    "dataset": "gsm8k",
+    "cohort": "margin_nearest",
+    "pair": 19,
+    "a": "OpenBuddy/openbuddy-qwen1.5-14b-v21.1-32k",
+    "b": "pansophic/m3",
+    "delta": 0.019908116385911178
+  },
+  {
+    "dataset": "hellaswag",
+    "cohort": "top_adjacent",
+    "pair": 0,
+    "a": "yunconglong/13B_MATH_DPO",
+    "b": "YouKnowMee/Mistral-7b-instruct-v0.2-summ-dpo-ed2",
+    "delta": 0.0033269129749606023
+  },
+  {
+    "dataset": "hellaswag",
+    "cohort": "top_adjacent",
+    "pair": 1,
+    "a": "YouKnowMee/Mistral-7b-instruct-v0.2-summ-dpo-ed2",
+    "b": "CultriX/NeuralCeptrix-7B-SLERP",
+    "delta": 0.0003502013657853266
+  },
+  {
+    "dataset": "hellaswag",
+    "cohort": "top_adjacent",
+    "pair": 2,
+    "a": "CultriX/NeuralCeptrix-7B-SLERP",
+    "b": "allknowingroger/JaskierMistral-7B-slerp",
+    "delta": 0.0007004027315706532
+  },
+  {
+    "dataset": "hellaswag",
+    "cohort": "top_adjacent",
+    "pair": 3,
+    "a": "allknowingroger/JaskierMistral-7B-slerp",
+    "b": "jefferylovely/Merkaba-Maven-0.1",
+    "delta": 0.0003502013657853266
+  },
+  {
+    "dataset": "hellaswag",
+    "cohort": "top_adjacent",
+    "pair": 4,
+    "a": "jefferylovely/Merkaba-Maven-0.1",
+    "b": "automerger/PasticheInex12-7B",
+    "delta": 0.0
+  },
+  {
+    "dataset": "hellaswag",
+    "cohort": "top_adjacent",
+    "pair": 5,
+    "a": "automerger/PasticheInex12-7B",
+    "b": "CorticalStack/pastiche-crown-clown-7b-dare-dpo",
+    "delta": 0.0003502013657853266
+  },
+  {
+    "dataset": "hellaswag",
+    "cohort": "top_adjacent",
+    "pair": 6,
+    "a": "CorticalStack/pastiche-crown-clown-7b-dare-dpo",
+    "b": "MaziyarPanahi/Calme-7B-Instruct-v0.2",
+    "delta": 0.0
+  },
+  {
+    "dataset": "hellaswag",
+    "cohort": "top_adjacent",
+    "pair": 7,
+    "a": "MaziyarPanahi/Calme-7B-Instruct-v0.2",
+    "b": "MaziyarPanahi/YamshadowInex12_Multi_verse_modelExperiment28",
+    "delta": 0.0003502013657853266
+  },
+  {
+    "dataset": "hellaswag",
+    "cohort": "top_adjacent",
+    "pair": 8,
+    "a": "MaziyarPanahi/YamshadowInex12_Multi_verse_modelExperiment28",
+    "b": "liminerity/M7-7b",
+    "delta": 0.0001751006828926633
+  },
+  {
+    "dataset": "hellaswag",
+    "cohort": "top_adjacent",
+    "pair": 9,
+    "a": "liminerity/M7-7b",
+    "b": "MaziyarPanahi/Calme-7B-Instruct-v0.9",
+    "delta": 0.0001751006828926633
+  },
+  {
+    "dataset": "hellaswag",
+    "cohort": "top_adjacent",
+    "pair": 10,
+    "a": "MaziyarPanahi/Calme-7B-Instruct-v0.9",
+    "b": "allknowingroger/Multimerge-12B-MoE",
+    "delta": 0.0
+  },
+  {
+    "dataset": "hellaswag",
+    "cohort": "top_adjacent",
+    "pair": 11,
+    "a": "allknowingroger/Multimerge-12B-MoE",
+    "b": "chlee10/T3Q-Merge-Mistral7B",
+    "delta": 0.0
+  },
+  {
+    "dataset": "hellaswag",
+    "cohort": "top_adjacent",
+    "pair": 12,
+    "a": "chlee10/T3Q-Merge-Mistral7B",
+    "b": "MSL7/INEX12-7b",
+    "delta": 0.0001751006828926633
+  },
+  {
+    "dataset": "hellaswag",
+    "cohort": "top_adjacent",
+    "pair": 13,
+    "a": "MSL7/INEX12-7b",
+    "b": "Muhammad2003/Myriad-7B-Slerp",
+    "delta": 0.0001751006828926633
+  },
+  {
+    "dataset": "hellaswag",
+    "cohort": "top_adjacent",
+    "pair": 14,
+    "a": "Muhammad2003/Myriad-7B-Slerp",
+    "b": "arcee-ai/Clown-DPO-Extended",
+    "delta": 0.0
+  },
+  {
+    "dataset": "hellaswag",
+    "cohort": "top_adjacent",
+    "pair": 15,
+    "a": "arcee-ai/Clown-DPO-Extended",
+    "b": "weezywitasneezy/BenchmarkEngineering-7B-slerp",
+    "delta": 0.0001751006828926633
+  },
+  {
+    "dataset": "hellaswag",
+    "cohort": "top_adjacent",
+    "pair": 16,
+    "a": "weezywitasneezy/BenchmarkEngineering-7B-slerp",
+    "b": "yam-peleg/Experiment29-7B",
+    "delta": 0.0001751006828926633
+  },
+  {
+    "dataset": "hellaswag",
+    "cohort": "top_adjacent",
+    "pair": 17,
+    "a": "yam-peleg/Experiment29-7B",
+    "b": "yam-peleg/Experiment30-7B",
+    "delta": 0.0
+  },
+  {
+    "dataset": "hellaswag",
+    "cohort": "top_adjacent",
+    "pair": 18,
+    "a": "yam-peleg/Experiment30-7B",
+    "b": "mlabonne/NeuralMonarch-7B",
+    "delta": 0.0
+  },
+  {
+    "dataset": "hellaswag",
+    "cohort": "top_adjacent",
+    "pair": 19,
+    "a": "mlabonne/NeuralMonarch-7B",
+    "b": "allknowingroger/M7merge-7B-slerp",
+    "delta": 0.0
+  },
+  {
+    "dataset": "hellaswag",
+    "cohort": "margin_nearest",
+    "pair": 0,
+    "a": "CultriX/SevereNeuralBeagleTrix-7B",
+    "b": "viethq188/Rabbit-7B-DPO-Chat",
+    "delta": 0.019961477849763615
+  },
+  {
+    "dataset": "hellaswag",
+    "cohort": "margin_nearest",
+    "pair": 1,
+    "a": "mahiatlinux/MasherAI-v6.1-7B-checkpoint6",
+    "b": "Artples/L-MChat-7b",
+    "delta": -0.019961477849763615
+  },
+  {
+    "dataset": "hellaswag",
+    "cohort": "margin_nearest",
+    "pair": 2,
+    "a": "mahiatlinux/MasherAI-v6.1-7B-checkpoint6",
+    "b": "abhishek/autotrain-mixtral7x8b-math",
+    "delta": -0.019961477849763615
+  },
+  {
+    "dataset": "hellaswag",
+    "cohort": "margin_nearest",
+    "pair": 3,
+    "a": "nbeerbower/llama-3-wissenschaft-8B-v2",
+    "b": "abhishek/autotrain-llama3-70b-orpo-v1",
+    "delta": 0.019961477849763615
+  },
+  {
+    "dataset": "hellaswag",
+    "cohort": "margin_nearest",
+    "pair": 4,
+    "a": "jisukim8873/falcon-7B-case-6",
+    "b": "Azure99/blossom-v5-7b",
+    "delta": 0.019961477849763615
+  },
+  {
+    "dataset": "hellaswag",
+    "cohort": "margin_nearest",
+    "pair": 5,
+    "a": "silvercoder45/Mistral-7b-instruct-v0.2-summ-dpo-e2",
+    "b": "zhengchenphd/Mistral-Plus-7B",
+    "delta": 0.019961477849763615
+  },
+  {
+    "dataset": "hellaswag",
+    "cohort": "margin_nearest",
+    "pair": 6,
+    "a": "euclaise/Ferret_7B",
+    "b": "ewqr2130/alignment-handbook-zephyr-7b_ppo_5e7step_102",
+    "delta": -0.019961477849763615
+  },
+  {
+    "dataset": "hellaswag",
+    "cohort": "margin_nearest",
+    "pair": 7,
+    "a": "h2m/mhm-8x7B-FrankenMoE-v1.0",
+    "b": "alnrg2arg/blockchainlabs_test3_seminar",
+    "delta": -0.019961477849763615
+  },
+  {
+    "dataset": "hellaswag",
+    "cohort": "margin_nearest",
+    "pair": 8,
+    "a": "h2m/mhm-8x7B-FrankenMoE-v1.0",
+    "b": "automerger/Experiment26Yamshadow-7B",
+    "delta": -0.019961477849763615
+  },
+  {
+    "dataset": "hellaswag",
+    "cohort": "margin_nearest",
+    "pair": 9,
+    "a": "fhai50032/xLakeChat",
+    "b": "jan-hq/stealth-rag-v1.1",
+    "delta": -0.019961477849763615
+  },
+  {
+    "dataset": "hellaswag",
+    "cohort": "margin_nearest",
+    "pair": 10,
+    "a": "jan-hq/supermario-slerp-v3",
+    "b": "Gille/StrangeMerges_3-7B-slerp",
+    "delta": -0.019961477849763615
+  },
+  {
+    "dataset": "hellaswag",
+    "cohort": "margin_nearest",
+    "pair": 11,
+    "a": "Gille/StrangeMerges_3-7B-slerp",
+    "b": "CorticalStack/pastiche-crown-clown-7b-dare-dpo",
+    "delta": -0.019961477849763615
+  },
+  {
+    "dataset": "hellaswag",
+    "cohort": "margin_nearest",
+    "pair": 12,
+    "a": "Gille/StrangeMerges_3-7B-slerp",
+    "b": "MaziyarPanahi/Calme-7B-Instruct-v0.2",
+    "delta": -0.019961477849763615
+  },
+  {
+    "dataset": "hellaswag",
+    "cohort": "margin_nearest",
+    "pair": 13,
+    "a": "decem/Dionysus-Mistral-n1-v1",
+    "b": "Qwen/Qwen1.5-MoE-A2.7B-Chat",
+    "delta": 0.019961477849763615
+  },
+  {
+    "dataset": "hellaswag",
+    "cohort": "margin_nearest",
+    "pair": 14,
+    "a": "ichigoberry/pandafish-2-7b-32k",
+    "b": "cloudyu/Truthful_DPO_TomGrc_FusionNet_34Bx2_MoE",
+    "delta": -0.019961477849763615
+  },
+  {
+    "dataset": "hellaswag",
+    "cohort": "margin_nearest",
+    "pair": 15,
+    "a": "icefog72/IceCappuccinoRP-7b",
+    "b": "YeungNLP/firefly-zephyr-6x7b-lora",
+    "delta": -0.019961477849763615
+  },
+  {
+    "dataset": "hellaswag",
+    "cohort": "margin_nearest",
+    "pair": 16,
+    "a": "UCLA-AGI/zephyr-7b-sft-full-SPIN-iter3",
+    "b": "Xwin-LM/Xwin-Math-70B-V1.0",
+    "delta": 0.019961477849763615
+  },
+  {
+    "dataset": "hellaswag",
+    "cohort": "margin_nearest",
+    "pair": 17,
+    "a": "Gryphe/Pantheon-RP-1.0-8b-Llama-3",
+    "b": "Weyaxi/Cosmosis-3x34B",
+    "delta": -0.019961477849763615
+  },
+  {
+    "dataset": "hellaswag",
+    "cohort": "margin_nearest",
+    "pair": 18,
+    "a": "Gryphe/Pantheon-RP-1.0-8b-Llama-3",
+    "b": "jilp00/Nous-Hermes-2-SOLAR-10.7B-v1.1",
+    "delta": 0.019961477849763615
+  },
+  {
+    "dataset": "hellaswag",
+    "cohort": "margin_nearest",
+    "pair": 19,
+    "a": "Gryphe/Pantheon-RP-1.0-8b-Llama-3",
+    "b": "EmbeddedLLM/Medusa2-Mistral-7B-Instruct-v0.2",
+    "delta": -0.019961477849763615
+  },
+  {
+    "dataset": "mmlu-pro",
+    "cohort": "top_adjacent",
+    "pair": 0,
+    "a": "arcee-ai__Arcee-Blitz",
+    "b": "newsbang__Homer-v1.0-Qwen2.5-72B",
+    "delta": 0.0008311170212765958
+  },
+  {
+    "dataset": "mmlu-pro",
+    "cohort": "top_adjacent",
+    "pair": 1,
+    "a": "newsbang__Homer-v1.0-Qwen2.5-72B",
+    "b": "Sakalti__ultiima-72B-v1.5",
+    "delta": 0.009142287234042553
+  },
+  {
+    "dataset": "mmlu-pro",
+    "cohort": "top_adjacent",
+    "pair": 2,
+    "a": "Sakalti__ultiima-72B-v1.5",
+    "b": "Aryanne__QwentileSwap",
+    "delta": 0.010804521276595746
+  },
+  {
+    "dataset": "mmlu-pro",
+    "cohort": "top_adjacent",
+    "pair": 3,
+    "a": "Aryanne__QwentileSwap",
+    "b": "sakaltcommunity__novablast-preview",
+    "delta": 0.0030751329787234044
+  },
+  {
+    "dataset": "mmlu-pro",
+    "cohort": "top_adjacent",
+    "pair": 4,
+    "a": "sakaltcommunity__novablast-preview",
+    "b": "Sakalti__ultiima-32B",
+    "delta": 0.0004986702127659574
+  },
+  {
+    "dataset": "mmlu-pro",
+    "cohort": "top_adjacent",
+    "pair": 5,
+    "a": "Sakalti__ultiima-32B",
+    "b": "Sakalti__Oxyge1-33B",
+    "delta": 8.311170212765957e-05
+  },
+  {
+    "dataset": "mmlu-pro",
+    "cohort": "top_adjacent",
+    "pair": 6,
+    "a": "Sakalti__Oxyge1-33B",
+    "b": "hotmailuser__RombosBeagle-v2beta-MGS-32B",
+    "delta": 0.00016622340425531914
+  },
+  {
+    "dataset": "mmlu-pro",
+    "cohort": "top_adjacent",
+    "pair": 7,
+    "a": "hotmailuser__RombosBeagle-v2beta-MGS-32B",
+    "b": "Sakalti__ultiima-72B",
+    "delta": 0.00016622340425531914
+  },
+  {
+    "dataset": "mmlu-pro",
+    "cohort": "top_adjacent",
+    "pair": 8,
+    "a": "Sakalti__ultiima-72B",
+    "b": "JungZoona__T3Q-qwen2.5-14b-v1.0-e3",
+    "delta": 0.002160904255319149
+  },
+  {
+    "dataset": "mmlu-pro",
+    "cohort": "top_adjacent",
+    "pair": 9,
+    "a": "JungZoona__T3Q-qwen2.5-14b-v1.0-e3",
+    "b": "maldv__Qwentile2.5-32B-Instruct",
+    "delta": 0.0004986702127659574
+  },
+  {
+    "dataset": "mmlu-pro",
+    "cohort": "top_adjacent",
+    "pair": 10,
+    "a": "maldv__Qwentile2.5-32B-Instruct",
+    "b": "rootxhacker__Apollo_v2-32B",
+    "delta": 0.0009973404255319148
+  },
+  {
+    "dataset": "mmlu-pro",
+    "cohort": "top_adjacent",
+    "pair": 11,
+    "a": "rootxhacker__Apollo_v2-32B",
+    "b": "Baptiste-HUVELLE-10__LeTriomphant2.2_ECE_iLAB",
+    "delta": 0.0018284574468085107
+  },
+  {
+    "dataset": "mmlu-pro",
+    "cohort": "top_adjacent",
+    "pair": 12,
+    "a": "Baptiste-HUVELLE-10__LeTriomphant2.2_ECE_iLAB",
+    "b": "raphgg__test-2.5-72B",
+    "delta": 0.0014128989361702129
+  },
+  {
+    "dataset": "mmlu-pro",
+    "cohort": "top_adjacent",
+    "pair": 13,
+    "a": "raphgg__test-2.5-72B",
+    "b": "fluently-lm__FluentlyLM-Prinum",
+    "delta": 0.002908909574468085
+  },
+  {
+    "dataset": "mmlu-pro",
+    "cohort": "top_adjacent",
+    "pair": 14,
+    "a": "fluently-lm__FluentlyLM-Prinum",
+    "b": "rubenroy__Gilgamesh-72B",
+    "delta": 0.000581781914893617
+  },
+  {
+    "dataset": "mmlu-pro",
+    "cohort": "top_adjacent",
+    "pair": 15,
+    "a": "rubenroy__Gilgamesh-72B",
+    "b": "Saxo__Linkbricks-Horizon-AI-Avengers-V1-32B",
+    "delta": 0.0009142287234042553
+  },
+  {
+    "dataset": "mmlu-pro",
+    "cohort": "top_adjacent",
+    "pair": 16,
+    "a": "Saxo__Linkbricks-Horizon-AI-Avengers-V1-32B",
+    "b": "FINGU-AI__RomboUltima-32B",
+    "delta": 0.0004155585106382979
+  },
+  {
+    "dataset": "mmlu-pro",
+    "cohort": "top_adjacent",
+    "pair": 17,
+    "a": "FINGU-AI__RomboUltima-32B",
+    "b": "tomasmcm__sky-t1-coder-32b-flash",
+    "delta": 0.0006648936170212766
+  },
+  {
+    "dataset": "mmlu-pro",
+    "cohort": "top_adjacent",
+    "pair": 18,
+    "a": "tomasmcm__sky-t1-coder-32b-flash",
+    "b": "ehristoforu__qwen2.5-test-32b-it",
+    "delta": 0.0016622340425531915
+  },
+  {
+    "dataset": "mmlu-pro",
+    "cohort": "top_adjacent",
+    "pair": 19,
+    "a": "ehristoforu__qwen2.5-test-32b-it",
+    "b": "Saxo__Linkbricks-Horizon-AI-Avengers-V5-32B",
+    "delta": 0.0003324468085106383
+  },
+  {
+    "dataset": "mmlu-pro",
+    "cohort": "margin_nearest",
+    "pair": 0,
+    "a": "nvidia__AceInstruct-72B",
+    "b": "OpenGenerativeAI__Bifrost-14B",
+    "delta": -0.020029920212765957
+  },
+  {
+    "dataset": "mmlu-pro",
+    "cohort": "margin_nearest",
+    "pair": 1,
+    "a": "prithivMLmods__Blaze-14B-xElite",
+    "b": "tensopolis__qwen2.5-14b-tensopolis-v1",
+    "delta": 0.020029920212765957
+  },
+  {
+    "dataset": "mmlu-pro",
+    "cohort": "margin_nearest",
+    "pair": 2,
+    "a": "prithivMLmods__GWQ2b",
+    "b": "EpistemeAI__ReasoningCore-3B-RE1-V2B",
+    "delta": -0.020029920212765957
+  },
+  {
+    "dataset": "mmlu-pro",
+    "cohort": "margin_nearest",
+    "pair": 3,
+    "a": "bamec66557__MISCHIEVOUS-12B-Mix_Neo",
+    "b": "vonjack__Phi-3-mini-4k-instruct-LLaMAfied",
+    "delta": -0.020029920212765957
+  },
+  {
+    "dataset": "mmlu-pro",
+    "cohort": "margin_nearest",
+    "pair": 4,
+    "a": "bamec66557__MISCHIEVOUS-12B-Mix_Neo",
+    "b": "DreadPoor__Something-8B-Model_Stock",
+    "delta": -0.020029920212765957
+  },
+  {
+    "dataset": "mmlu-pro",
+    "cohort": "margin_nearest",
+    "pair": 5,
+    "a": "bamec66557__MISCHIEVOUS-12B-Mix_0.6v",
+    "b": "mrdayl__OpenCognito-r2",
+    "delta": 0.020029920212765957
+  },
+  {
+    "dataset": "mmlu-pro",
+    "cohort": "margin_nearest",
+    "pair": 6,
+    "a": "bamec66557__MISCHIEVOUS-12B",
+    "b": "T145__ZEUS-8B-V13-abliterated",
+    "delta": -0.020029920212765957
+  },
+  {
+    "dataset": "mmlu-pro",
+    "cohort": "margin_nearest",
+    "pair": 7,
+    "a": "bamec66557__MISCHIEVOUS-12B",
+    "b": "jaspionjader__kstc-9-8b",
+    "delta": -0.020029920212765957
+  },
+  {
+    "dataset": "mmlu-pro",
+    "cohort": "margin_nearest",
+    "pair": 8,
+    "a": "bamec66557__MISCHIEVOUS-12B",
+    "b": "bunnycore__Qwen2.5-7B-R1-Bespoke-Stock",
+    "delta": 0.020029920212765957
+  },
+  {
+    "dataset": "mmlu-pro",
+    "cohort": "margin_nearest",
+    "pair": 9,
+    "a": "zelk12__MT4-Gen4-gemma-2-9B",
+    "b": "Saxo__Linkbricks-Horizon-AI-Korean-Avengers-V3-27B",
+    "delta": -0.020029920212765957
+  },
+  {
+    "dataset": "mmlu-pro",
+    "cohort": "margin_nearest",
+    "pair": 10,
+    "a": "zelk12__MT4-Gen4-gemma-2-9B",
+    "b": "formulae__mita-v1.1-7b-2-24-2025",
+    "delta": -0.020029920212765957
+  },
+  {
+    "dataset": "mmlu-pro",
+    "cohort": "margin_nearest",
+    "pair": 11,
+    "a": "CultriX__Qwen2.5-14B-Emerged",
+    "b": "sometimesanotion__Qwenvergence-14B-v3",
+    "delta": -0.020029920212765957
+  },
+  {
+    "dataset": "mmlu-pro",
+    "cohort": "margin_nearest",
+    "pair": 12,
+    "a": "CultriX__Qwen2.5-14B-Emerged",
+    "b": "sometimesanotion__Qwen-14B-ProseStock-v4",
+    "delta": -0.020029920212765957
+  },
+  {
+    "dataset": "mmlu-pro",
+    "cohort": "margin_nearest",
+    "pair": 13,
+    "a": "CultriX__Qwen2.5-14B-Emerged",
+    "b": "Quazim0t0__Venti-20b",
+    "delta": -0.020029920212765957
+  },
+  {
+    "dataset": "mmlu-pro",
+    "cohort": "margin_nearest",
+    "pair": 14,
+    "a": "CultriX__Qwen2.5-14B-Emerged",
+    "b": "prithivMLmods__Jolt-v0.1",
+    "delta": -0.020029920212765957
+  },
+  {
+    "dataset": "mmlu-pro",
+    "cohort": "margin_nearest",
+    "pair": 15,
+    "a": "mergekit-community__mergekit-model_stock-azgztvm",
+    "b": "prithivMLmods__Phi-4-Math-IO",
+    "delta": 0.020029920212765957
+  },
+  {
+    "dataset": "mmlu-pro",
+    "cohort": "margin_nearest",
+    "pair": 16,
+    "a": "CarrotAI__Llama-3.2-Rabbit-Ko-3B-Instruct",
+    "b": "GenVRadmin__llama38bGenZ_Vikas-Merged",
+    "delta": 0.020029920212765957
+  },
+  {
+    "dataset": "mmlu-pro",
+    "cohort": "margin_nearest",
+    "pair": 17,
+    "a": "bamec66557__mergekit-model_stock-zdaysvi",
+    "b": "Nexesenex__Llama_3.1_8b_Hermedive_R1_V1.03",
+    "delta": 0.020029920212765957
+  },
+  {
+    "dataset": "mmlu-pro",
+    "cohort": "margin_nearest",
+    "pair": 18,
+    "a": "bamec66557__VICIOUS_MESH-12B-ALPHA",
+    "b": "jaspionjader__dp-6-8b",
+    "delta": -0.020029920212765957
+  },
+  {
+    "dataset": "mmlu-pro",
+    "cohort": "margin_nearest",
+    "pair": 19,
+    "a": "bamec66557__VICIOUS_MESH-12B-ALPHA",
+    "b": "jaspionjader__bbb-1",
+    "delta": -0.020029920212765957
+  },
+  {
+    "dataset": "truthfulqa",
+    "cohort": "top_adjacent",
+    "pair": 0,
+    "a": "SF-Foundation/Ein-72B-v0.11",
+    "b": "vicgalleorg/test1",
+    "delta": 0.034161490683229816
+  },
+  {
+    "dataset": "truthfulqa",
+    "cohort": "top_adjacent",
+    "pair": 1,
+    "a": "vicgalleorg/test1",
+    "b": "SF-Foundation/TextBase-v0.2",
+    "delta": 0.0015527950310559005
+  },
+  {
+    "dataset": "truthfulqa",
+    "cohort": "top_adjacent",
+    "pair": 2,
+    "a": "SF-Foundation/TextBase-v0.2",
+    "b": "allknowingroger/PrometheusLaser-7B-slerp",
+    "delta": 0.003105590062111801
+  },
+  {
+    "dataset": "truthfulqa",
+    "cohort": "top_adjacent",
+    "pair": 3,
+    "a": "allknowingroger/PrometheusLaser-7B-slerp",
+    "b": "davidkim205/Rhea-72b-v0.5",
+    "delta": 0.0
+  },
+  {
+    "dataset": "truthfulqa",
+    "cohort": "top_adjacent",
+    "pair": 4,
+    "a": "davidkim205/Rhea-72b-v0.5",
+    "b": "Eurdem/megatron_2.1_MoE_2x7B",
+    "delta": 0.006211180124223602
+  },
+  {
+    "dataset": "truthfulqa",
+    "cohort": "top_adjacent",
+    "pair": 5,
+    "a": "Eurdem/megatron_2.1_MoE_2x7B",
+    "b": "allknowingroger/mergekit-slerp-zplzqvn",
+    "delta": 0.0
+  },
+  {
+    "dataset": "truthfulqa",
+    "cohort": "top_adjacent",
+    "pair": 6,
+    "a": "allknowingroger/mergekit-slerp-zplzqvn",
+    "b": "allknowingroger/PercivalMelodias-7B-slerp",
+    "delta": 0.0
+  },
+  {
+    "dataset": "truthfulqa",
+    "cohort": "top_adjacent",
+    "pair": 7,
+    "a": "allknowingroger/PercivalMelodias-7B-slerp",
+    "b": "CultriX/AlphaCeption-7B-v1",
+    "delta": 0.0
+  },
+  {
+    "dataset": "truthfulqa",
+    "cohort": "top_adjacent",
+    "pair": 8,
+    "a": "CultriX/AlphaCeption-7B-v1",
+    "b": "allknowingroger/Experimentmultiverse-7B-slerp",
+    "delta": 0.0
+  },
+  {
+    "dataset": "truthfulqa",
+    "cohort": "top_adjacent",
+    "pair": 9,
+    "a": "allknowingroger/Experimentmultiverse-7B-slerp",
+    "b": "MaziyarPanahi/Experiment26Yam_Ognoexperiment27Multi_verse_model",
+    "delta": 0.0015527950310559005
+  },
+  {
+    "dataset": "truthfulqa",
+    "cohort": "top_adjacent",
+    "pair": 10,
+    "a": "MaziyarPanahi/Experiment26Yam_Ognoexperiment27Multi_verse_model",
+    "b": "bardsai/jaskier-7b-dpo-v7.1",
+    "delta": 0.0
+  },
+  {
+    "dataset": "truthfulqa",
+    "cohort": "top_adjacent",
+    "pair": 11,
+    "a": "bardsai/jaskier-7b-dpo-v7.1",
+    "b": "yam-peleg/Experiment24-7B",
+    "delta": 0.0
+  },
+  {
+    "dataset": "truthfulqa",
+    "cohort": "top_adjacent",
+    "pair": 12,
+    "a": "yam-peleg/Experiment24-7B",
+    "b": "MaziyarPanahi/M7Yamshadowexperiment28_Strangemerges_30Experiment26",
+    "delta": 0.0015527950310559005
+  },
+  {
+    "dataset": "truthfulqa",
+    "cohort": "top_adjacent",
+    "pair": 13,
+    "a": "MaziyarPanahi/M7Yamshadowexperiment28_Strangemerges_30Experiment26",
+    "b": "yunconglong/DARE_TIES_13B",
+    "delta": 0.0
+  },
+  {
+    "dataset": "truthfulqa",
+    "cohort": "top_adjacent",
+    "pair": 14,
+    "a": "yunconglong/DARE_TIES_13B",
+    "b": "MaziyarPanahi/Experiment26Yamshadow_Ognoexperiment27Multi_verse_model",
+    "delta": 0.0
+  },
+  {
+    "dataset": "truthfulqa",
+    "cohort": "top_adjacent",
+    "pair": 15,
+    "a": "MaziyarPanahi/Experiment26Yamshadow_Ognoexperiment27Multi_verse_model",
+    "b": "Kukedlc/NeuralSynthesis-7B-v0.3",
+    "delta": 0.0
+  },
+  {
+    "dataset": "truthfulqa",
+    "cohort": "top_adjacent",
+    "pair": 16,
+    "a": "Kukedlc/NeuralSynthesis-7B-v0.3",
+    "b": "allknowingroger/Multimerge-12B-MoE",
+    "delta": 0.0
+  },
+  {
+    "dataset": "truthfulqa",
+    "cohort": "top_adjacent",
+    "pair": 17,
+    "a": "allknowingroger/Multimerge-12B-MoE",
+    "b": "ammarali32/multi_verse_model",
+    "delta": 0.0015527950310559005
+  },
+  {
+    "dataset": "truthfulqa",
+    "cohort": "top_adjacent",
+    "pair": 18,
+    "a": "ammarali32/multi_verse_model",
+    "b": "mayacinka/yam-jom-7B",
+    "delta": 0.0
+  },
+  {
+    "dataset": "truthfulqa",
+    "cohort": "top_adjacent",
+    "pair": 19,
+    "a": "mayacinka/yam-jom-7B",
+    "b": "NExtNewChattingAI/Mutliverse_model_official",
+    "delta": 0.0015527950310559005
+  },
+  {
+    "dataset": "truthfulqa",
+    "cohort": "margin_nearest",
+    "pair": 0,
+    "a": "macadeliccc/laser-dolphin-mixtral-2x7b-dpo",
+    "b": "SanjiWatsuki/Loyal-Macaroni-Maid-7B",
+    "delta": -0.020186335403726708
+  },
+  {
+    "dataset": "truthfulqa",
+    "cohort": "margin_nearest",
+    "pair": 1,
+    "a": "occultml/CatMarcoro14-7B-slerp",
+    "b": "cloudyu/Truthful_DPO_cloudyu_Mixtral_34Bx2_MoE_60B",
+    "delta": -0.020186335403726708
+  },
+  {
+    "dataset": "truthfulqa",
+    "cohort": "margin_nearest",
+    "pair": 2,
+    "a": "occultml/CatMarcoro14-7B-slerp",
+    "b": "DreadPoor/Siren-7B-slerp",
+    "delta": -0.020186335403726708
+  },
+  {
+    "dataset": "truthfulqa",
+    "cohort": "margin_nearest",
+    "pair": 3,
+    "a": "jeiku/Elly_7B",
+    "b": "ChaoticNeutrals/Prima-LelantaclesV4-7b-16k-bf16",
+    "delta": 0.020186335403726708
+  },
+  {
+    "dataset": "truthfulqa",
+    "cohort": "margin_nearest",
+    "pair": 4,
+    "a": "HenryJJ/dolphin-2.6-mistral-7b-dpo-orca-v2",
+    "b": "SanjiWatsuki/Loyal-Macaroni-Maid-7B",
+    "delta": -0.020186335403726708
+  },
+  {
+    "dataset": "truthfulqa",
+    "cohort": "margin_nearest",
+    "pair": 5,
+    "a": "cstr/Spaetzle-v44-7b",
+    "b": "ChaoticNeutrals/Prima-LelantaclesV4-7b-16k-bf16",
+    "delta": 0.020186335403726708
+  },
+  {
+    "dataset": "truthfulqa",
+    "cohort": "margin_nearest",
+    "pair": 6,
+    "a": "ajibawa-2023/Scarlett-Llama-3-8B-v1.0",
+    "b": "ChaoticNeutrals/Prima-LelantaclesV4-7b-16k-bf16",
+    "delta": 0.020186335403726708
+  },
+  {
+    "dataset": "truthfulqa",
+    "cohort": "margin_nearest",
+    "pair": 7,
+    "a": "Ppoyaa/LuminRP-7B",
+    "b": "Walmart-the-bag/Misted-v2-7B",
+    "delta": 0.020186335403726708
+  },
+  {
+    "dataset": "truthfulqa",
+    "cohort": "margin_nearest",
+    "pair": 8,
+    "a": "Ppoyaa/LuminRP-7B",
+    "b": "v1olet/v1olet_merged_dpo_7B_v4",
+    "delta": 0.020186335403726708
+  },
+  {
+    "dataset": "truthfulqa",
+    "cohort": "margin_nearest",
+    "pair": 9,
+    "a": "Mihaiii/Pallas-0.5-LASER-exp2-0.1",
+    "b": "adamo1139/Yi-34B-200K-AEZAKMI-RAW-2301-LoRA",
+    "delta": -0.020186335403726708
+  },
+  {
+    "dataset": "truthfulqa",
+    "cohort": "margin_nearest",
+    "pair": 10,
+    "a": "Mihaiii/Pallas-0.5-LASER-exp2-0.1",
+    "b": "JaeyeonKang/CCK_gony",
+    "delta": -0.020186335403726708
+  },
+  {
+    "dataset": "truthfulqa",
+    "cohort": "margin_nearest",
+    "pair": 11,
+    "a": "LeroyDyer/Mixtral_AI_SwahiliTron_7b",
+    "b": "LeroyDyer/Mixtral_AI_Cyber_MegaMind_3_0",
+    "delta": 0.020186335403726708
+  },
+  {
+    "dataset": "truthfulqa",
+    "cohort": "margin_nearest",
+    "pair": 12,
+    "a": "LeroyDyer/Mixtral_AI_SwahiliTron_7b",
+    "b": "Gille/StrangeMerges_15-7B-slerp",
+    "delta": 0.020186335403726708
+  },
+  {
+    "dataset": "truthfulqa",
+    "cohort": "margin_nearest",
+    "pair": 13,
+    "a": "LeroyDyer/Mixtral_AI_SwahiliTron_7b",
+    "b": "Nitral-AI/Nyanade_Stunna-Maid-7B",
+    "delta": 0.020186335403726708
+  },
+  {
+    "dataset": "truthfulqa",
+    "cohort": "margin_nearest",
+    "pair": 14,
+    "a": "openagi-project/OpenAGI-7B-v0.2",
+    "b": "yhyu13/LMCocktail-10.7B-v1",
+    "delta": -0.020186335403726708
+  },
+  {
+    "dataset": "truthfulqa",
+    "cohort": "margin_nearest",
+    "pair": 15,
+    "a": "llmixer/BigWeave-v15-103b",
+    "b": "Walmart-the-bag/Misted-v2-7B",
+    "delta": 0.020186335403726708
+  },
+  {
+    "dataset": "truthfulqa",
+    "cohort": "margin_nearest",
+    "pair": 16,
+    "a": "llmixer/BigWeave-v15-103b",
+    "b": "v1olet/v1olet_merged_dpo_7B_v4",
+    "delta": 0.020186335403726708
+  },
+  {
+    "dataset": "truthfulqa",
+    "cohort": "margin_nearest",
+    "pair": 17,
+    "a": "nbeerbower/llama-3-stella-8B",
+    "b": "LHC88/LaseredHermes-7B-v1",
+    "delta": 0.020186335403726708
+  },
+  {
+    "dataset": "truthfulqa",
+    "cohort": "margin_nearest",
+    "pair": 18,
+    "a": "nbeerbower/llama-3-stella-8B",
+    "b": "Gille/StrangeMerges_41-7B-dare_ties",
+    "delta": 0.020186335403726708
+  },
+  {
+    "dataset": "truthfulqa",
+    "cohort": "margin_nearest",
+    "pair": 19,
+    "a": "shadowml/Beyonder-4x7B-v2",
+    "b": "zhengr/NeuralPipe-7B-slerp",
+    "delta": 0.020186335403726708
+  },
+  {
+    "dataset": "winogrande",
+    "cohort": "top_adjacent",
+    "pair": 0,
+    "a": "jan-hq/stealth-v2",
+    "b": "rizla/raccoon-small",
+    "delta": 0.0009569377990430622
+  },
+  {
+    "dataset": "winogrande",
+    "cohort": "top_adjacent",
+    "pair": 1,
+    "a": "rizla/raccoon-small",
+    "b": "SF-Foundation/Ein-70B-v2",
+    "delta": 0.0
+  },
+  {
+    "dataset": "winogrande",
+    "cohort": "top_adjacent",
+    "pair": 2,
+    "a": "SF-Foundation/Ein-70B-v2",
+    "b": "saltlux/luxia-21.4b-alignment-v1.2",
+    "delta": 0.01818181818181818
+  },
+  {
+    "dataset": "winogrande",
+    "cohort": "top_adjacent",
+    "pair": 3,
+    "a": "saltlux/luxia-21.4b-alignment-v1.2",
+    "b": "macadeliccc/Laser-WestLake-2x7b",
+    "delta": 0.003827751196172249
+  },
+  {
+    "dataset": "winogrande",
+    "cohort": "top_adjacent",
+    "pair": 4,
+    "a": "macadeliccc/Laser-WestLake-2x7b",
+    "b": "weezywitasneezy/BenchmarkEngineering-F2-7B-slerp",
+    "delta": 0.0
+  },
+  {
+    "dataset": "winogrande",
+    "cohort": "top_adjacent",
+    "pair": 5,
+    "a": "weezywitasneezy/BenchmarkEngineering-F2-7B-slerp",
+    "b": "Kquant03/Cognito-2x7B-bf16",
+    "delta": 0.003827751196172249
+  },
+  {
+    "dataset": "winogrande",
+    "cohort": "top_adjacent",
+    "pair": 6,
+    "a": "Kquant03/Cognito-2x7B-bf16",
+    "b": "DreadPoor/WhyAreWeStillHere-7B-slerp",
+    "delta": 0.0009569377990430622
+  },
+  {
+    "dataset": "winogrande",
+    "cohort": "top_adjacent",
+    "pair": 7,
+    "a": "DreadPoor/WhyAreWeStillHere-7B-slerp",
+    "b": "MaziyarPanahi/YamshadowInex12_Multi_verse_modelExperiment28",
+    "delta": 0.0019138755980861245
+  },
+  {
+    "dataset": "winogrande",
+    "cohort": "top_adjacent",
+    "pair": 8,
+    "a": "MaziyarPanahi/YamshadowInex12_Multi_verse_modelExperiment28",
+    "b": "Novocoders/jaskier-7b-NeuralDPO",
+    "delta": 0.0
+  },
+  {
+    "dataset": "winogrande",
+    "cohort": "top_adjacent",
+    "pair": 9,
+    "a": "Novocoders/jaskier-7b-NeuralDPO",
+    "b": "paulml/OmniBeagleMBX-v3-7B",
+    "delta": 0.0
+  },
+  {
+    "dataset": "winogrande",
+    "cohort": "top_adjacent",
+    "pair": 10,
+    "a": "paulml/OmniBeagleMBX-v3-7B",
+    "b": "allknowingroger/CalmExperiment-7B-slerp",
+    "delta": 0.0009569377990430622
+  },
+  {
+    "dataset": "winogrande",
+    "cohort": "top_adjacent",
+    "pair": 11,
+    "a": "allknowingroger/CalmExperiment-7B-slerp",
+    "b": "TW3Partners/testmerge-7b",
+    "delta": 0.0
+  },
+  {
+    "dataset": "winogrande",
+    "cohort": "top_adjacent",
+    "pair": 12,
+    "a": "TW3Partners/testmerge-7b",
+    "b": "automerger/YamshadowExperiment28-7B",
+    "delta": 0.0
+  },
+  {
+    "dataset": "winogrande",
+    "cohort": "top_adjacent",
+    "pair": 13,
+    "a": "automerger/YamshadowExperiment28-7B",
+    "b": "nlpguy/T3QM7",
+    "delta": 0.0
+  },
+  {
+    "dataset": "winogrande",
+    "cohort": "top_adjacent",
+    "pair": 14,
+    "a": "nlpguy/T3QM7",
+    "b": "eren23/dpo-binarized-NeutrixOmnibe-7B",
+    "delta": 0.0009569377990430622
+  },
+  {
+    "dataset": "winogrande",
+    "cohort": "top_adjacent",
+    "pair": 15,
+    "a": "eren23/dpo-binarized-NeutrixOmnibe-7B",
+    "b": "ChaoticNeutrals/Eris_Remix_DPO_7B",
+    "delta": 0.0
+  },
+  {
+    "dataset": "winogrande",
+    "cohort": "top_adjacent",
+    "pair": 16,
+    "a": "ChaoticNeutrals/Eris_Remix_DPO_7B",
+    "b": "paulml/DPOB-NMTOB-7B",
+    "delta": 0.0
+  },
+  {
+    "dataset": "winogrande",
+    "cohort": "top_adjacent",
+    "pair": 17,
+    "a": "paulml/DPOB-NMTOB-7B",
+    "b": "alnrg2arg/blockchainlabs_joe_bez_seminar",
+    "delta": 0.0
+  },
+  {
+    "dataset": "winogrande",
+    "cohort": "top_adjacent",
+    "pair": 18,
+    "a": "alnrg2arg/blockchainlabs_joe_bez_seminar",
+    "b": "allknowingroger/CeptrixBeagle-12B-MoE",
+    "delta": 0.0009569377990430622
+  },
+  {
+    "dataset": "winogrande",
+    "cohort": "top_adjacent",
+    "pair": 19,
+    "a": "allknowingroger/CeptrixBeagle-12B-MoE",
+    "b": "paulml/NeuralOmniWestBeaglake-7B",
+    "delta": 0.0
+  },
+  {
+    "dataset": "winogrande",
+    "cohort": "margin_nearest",
+    "pair": 0,
+    "a": "01-ai/Yi-1.5-9B-Chat",
+    "b": "shahzebnaveed/NeuralHermes-2.5-Mistral-7B",
+    "delta": -0.020095693779904306
+  },
+  {
+    "dataset": "winogrande",
+    "cohort": "margin_nearest",
+    "pair": 1,
+    "a": "01-ai/Yi-1.5-9B-Chat",
+    "b": "The-Face-Of-Goonery/Huginn-13b-v1.2",
+    "delta": 0.020095693779904306
+  },
+  {
+    "dataset": "winogrande",
+    "cohort": "margin_nearest",
+    "pair": 2,
+    "a": "01-ai/Yi-1.5-9B-Chat",
+    "b": "dvruette/llama-13b-pretrained-sft-do2",
+    "delta": 0.020095693779904306
+  },
+  {
+    "dataset": "winogrande",
+    "cohort": "margin_nearest",
+    "pair": 3,
+    "a": "01-ai/Yi-1.5-9B-Chat",
+    "b": "AA051615/L0225",
+    "delta": -0.020095693779904306
+  },
+  {
+    "dataset": "winogrande",
+    "cohort": "margin_nearest",
+    "pair": 4,
+    "a": "01-ai/Yi-1.5-9B-Chat",
+    "b": "Undi95/Llama-3-LewdPlay-8B-evo",
+    "delta": 0.020095693779904306
+  },
+  {
+    "dataset": "winogrande",
+    "cohort": "margin_nearest",
+    "pair": 5,
+    "a": "01-ai/Yi-1.5-9B-Chat",
+    "b": "The-Face-Of-Goonery/huginnv1.2",
+    "delta": 0.020095693779904306
+  },
+  {
+    "dataset": "winogrande",
+    "cohort": "margin_nearest",
+    "pair": 6,
+    "a": "01-ai/Yi-1.5-9B-Chat",
+    "b": "elyza/ELYZA-japanese-Llama-2-13b-instruct",
+    "delta": 0.020095693779904306
+  },
+  {
+    "dataset": "winogrande",
+    "cohort": "margin_nearest",
+    "pair": 7,
+    "a": "jeiku/Garbage_9B",
+    "b": "cloudyu/Mixtral_7Bx4_MOE_24B",
+    "delta": 0.020095693779904306
+  },
+  {
+    "dataset": "winogrande",
+    "cohort": "margin_nearest",
+    "pair": 8,
+    "a": "jeiku/Garbage_9B",
+    "b": "eldogbbhed/NeuralKrishnaMathWizard-7B",
+    "delta": 0.020095693779904306
+  },
+  {
+    "dataset": "winogrande",
+    "cohort": "margin_nearest",
+    "pair": 9,
+    "a": "jeiku/Garbage_9B",
+    "b": "Gille/StrangeMerges_12-7B-slerp",
+    "delta": -0.020095693779904306
+  },
+  {
+    "dataset": "winogrande",
+    "cohort": "margin_nearest",
+    "pair": 10,
+    "a": "danyoung/billie",
+    "b": "jeonsworld/CarbonVillain-en-10.7B-v3",
+    "delta": -0.020095693779904306
+  },
+  {
+    "dataset": "winogrande",
+    "cohort": "margin_nearest",
+    "pair": 11,
+    "a": "Locutusque/Hercules-4.0-Mistral-v0.2-7B",
+    "b": "birgermoell/llama-3-open-hermes-disco",
+    "delta": 0.020095693779904306
+  },
+  {
+    "dataset": "winogrande",
+    "cohort": "margin_nearest",
+    "pair": 12,
+    "a": "Locutusque/Hercules-4.0-Mistral-v0.2-7B",
+    "b": "Mihaiii/Metis-0.1",
+    "delta": 0.020095693779904306
+  },
+  {
+    "dataset": "winogrande",
+    "cohort": "margin_nearest",
+    "pair": 13,
+    "a": "Locutusque/Hercules-4.0-Mistral-v0.2-7B",
+    "b": "01-ai/Yi-34B-Chat",
+    "delta": -0.020095693779904306
+  },
+  {
+    "dataset": "winogrande",
+    "cohort": "margin_nearest",
+    "pair": 14,
+    "a": "Locutusque/Hercules-4.0-Mistral-v0.2-7B",
+    "b": "CHIH-HUNG/llama-2-13b-FINETUNE5_4w-r4-q_k_v_o_gate_up_down",
+    "delta": 0.020095693779904306
+  },
+  {
+    "dataset": "winogrande",
+    "cohort": "margin_nearest",
+    "pair": 15,
+    "a": "Locutusque/Hercules-4.0-Mistral-v0.2-7B",
+    "b": "Novocoders/Mistral-NeuralDPO-v0.4-Laser",
+    "delta": -0.020095693779904306
+  },
+  {
+    "dataset": "winogrande",
+    "cohort": "margin_nearest",
+    "pair": 16,
+    "a": "Locutusque/Hercules-4.0-Mistral-v0.2-7B",
+    "b": "LeroyDyer/Mixtral_AI_CyberTron",
+    "delta": 0.020095693779904306
+  },
+  {
+    "dataset": "winogrande",
+    "cohort": "margin_nearest",
+    "pair": 17,
+    "a": "Locutusque/Hercules-4.0-Mistral-v0.2-7B",
+    "b": "vicgalleorg/OpenHermes-Yi-9B",
+    "delta": 0.020095693779904306
+  },
+  {
+    "dataset": "winogrande",
+    "cohort": "margin_nearest",
+    "pair": 18,
+    "a": "jondurbin/bagel-7b-v0.1",
+    "b": "meta-llama/Meta-Llama-3-70B-Instruct",
+    "delta": -0.020095693779904306
+  },
+  {
+    "dataset": "winogrande",
+    "cohort": "margin_nearest",
+    "pair": 19,
+    "a": "jondurbin/bagel-7b-v0.1",
+    "b": "eldogbbhed/NeuralMonarchCoderPearlBeagle-T3Q-Mistral-Orca-Math-DPO-7b",
+    "delta": -0.020095693779904306
+  }
+]

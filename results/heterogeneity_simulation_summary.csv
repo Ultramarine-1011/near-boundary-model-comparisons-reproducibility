@@ -1,0 +1,13 @@
+case,method,runs,fraction,errors,error_rate
+homogeneous_mixed,neyman,300,0.9639716666666668,0,0.0
+homogeneous_mixed,proportional,300,0.9640750000000001,0,0.0
+homogeneous_mixed,unstratified,300,0.8981716666666667,0,0.0
+opposite_constants,neyman,300,0.341,0,0.0
+opposite_constants,proportional,300,0.341,0,0.0
+opposite_constants,unstratified,300,0.9822416666666667,0,0.0
+opposite_mixed,neyman,300,0.8591616666666666,0,0.0
+opposite_mixed,proportional,300,0.8575933333333334,0,0.0
+opposite_mixed,unstratified,300,0.9817683333333334,0,0.0
+rare_noisy_stratum,neyman,300,0.3995,0,0.0
+rare_noisy_stratum,proportional,300,0.8588233333333333,0,0.0
+rare_noisy_stratum,unstratified,300,0.772305,0,0.0

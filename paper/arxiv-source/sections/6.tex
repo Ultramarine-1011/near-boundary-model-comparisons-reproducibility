@@ -1,0 +1,44 @@
+\section{Boundary-focused experiments}\label{sec:6}\label{boundary-focused-experiments}
+
+\input{sections/main-figure}
+
+\subsection{Reproducible design}\label{reproducible-design}
+
+The simulation uses 69 fixed populations, 1,000 independently seeded random permutations per population, and six methods: 414,000 method-runs. Population sizes are 200, 1,000, and 5,000. Ternary disagreement rates and signed differences vary independently where feasible. Additional settings vary \(\alpha\) and the equivalence margin, and include constant equivalence, constant boundary, and a single changed item. Integer rounding can make two nominal settings represent the same population at small \(N\); results retain the actual finite mean and no artificial distinction is claimed.
+
+The public study uses seven released complete response matrices. Each contributes 100 disjoint randomly selected model pairs and 30 permutations per pair. Three margins are evaluated for the six core methods; separate-arm and fixed-budget ablations use the main .02 margin. These produce 462,000 method/margin-runs, not that many distinct model pairs. Model-pair selection does not use observed performance gaps. All raw archives, processed matrices, exclusions, and seeds are recorded.
+
+\begin{table}[t]
+\centering
+\caption{Released response matrices. The first five are from ATLAS; MMLU-Pro and the composite are from \texttt{efficiently-evaluating-llms}.}\label{tab:data}
+\begin{tabular}{lrr}
+\toprule Matrix & Test models & Items\\\midrule
+ARC & 417 & 844\\
+GSM8K & 420 & 1,306\\
+HellaSwag & 386 & 5,711\\
+TruthfulQA & 516 & 644\\
+WinoGrande & 521 & 1,045\\
+MMLU-Pro & 2,213 & 12,032\\
+Multi-task composite & 2,212 & 9,574\\\bottomrule
+\end{tabular}
+\end{table}
+
+No test rows were removed for missing responses. This does not undo upstream filtering. Historical difficulty uses disjoint IDs, but family separation is not guaranteed. The exploratory stratification study uses the first 20 preselected pairs and five independent permutations per matrix; favorable/unfavorable heterogeneity simulations use 300 repetitions per setting.
+
+We report decision error separately from entire-path CS miscoverage. Stratified coverage logging currently stops with the decision and is not called a full-path audit. Exact binomial intervals are supplied per fixed simulation population. For real-data cost uncertainty, pairs are bootstrap clusters; repeated permutations are not treated as independent model draws. These cohort intervals are descriptive and do not establish representativeness of future models.
+
+\subsection{Controlled boundary sweep}\label{controlled-boundary-sweep}
+
+The controlled boundary study contains 74 fixed populations: \(N\) in \{1000,5000\}, ternary disagreement \(q\) in \{.05,.3,.8\}, and means .02 plus feasible offsets in \{-.02,-.01,-.004,-.002,0,.002,.004,.01,.02,.04\}; seven constant-score populations per \(N\); and one rare-event diagnostic per \(N\). Every configuration receives 300 random permutations and three methods (66,600 replays). Counts are rounded before sampling and the actual finite mean is recorded. No gap is supplied to an evaluator. This exploratory design probes the boundary at controlled finite populations.
+
+For \(N=5000\) and \(g\)=.002 on the equivalent side, direct betting evaluates .965 of items at \(q\)=.05, .978 at \(q\)=.3 and .985 at \(q\)=.8. At \(g\)=.02, the corresponding fractions at \(\delta=0\) are .282, .726 and .895. Constant populations instead use .128 at \(g\)=.02, .745 at \(g\)=.002, and exactly 1 at \(g=0\). Thus cost concentrates near the boundary, but neither gap nor zero observed variance alone determines an adequate budget. Small reversals in the empirical curves and differences across \(q\) rule out claiming strict monotonicity from this sweep. We observe a crossover, not evidence of a universal sharp phase transition or a fitted asymptotic law.
+
+\subsection{Public-data stress test and broad-cohort context}\label{public-data-stress-test-and-broad-cohort-context}
+
+The existing retrospective margin-nearest cohort selects 20 pairs per matrix with absolute full-matrix difference closest to .02, then uses 100 independent permutations. EB-grid requires .9974--.9999 of items across matrices; direct betting requires .9766--.9974. These estimates are conditional on deliberately difficult selected pairs, not random-model prevalence estimates. The top-adjacent cohort is less uniformly difficult: direct betting ranges from .157 to .910. Being close in rank does not imply being close to a practical decision boundary.
+
+For context, the 700 random-pair cohort gives an EB-grid macro-average fraction .41635; direct betting is cheaper in every matrix. That average is not the principal result and its full table is in Appendix~\ref{app:c}. Selection by gap is diagnostic, not a deployable oracle policy: evaluators see only revealed prefixes, while the full matrix defines the retrospective analysis strata.
+
+\subsection{What the theory and replays jointly establish}\label{what-the-theory-and-replays-jointly-establish}
+
+The experiments and lower bound answer different questions. The lower bound applies to every uniformly correct algorithm when the stipulated label-changing alternatives remain admissible. The experiments measure particular betting and confidence-sequence procedures on particular vectors. High observed cost beyond the one-item regime can reflect both statistical difficulty and conservative inference; these runs do not identify the optimal cost. Public stress pairs demonstrate that difficult comparisons occur in the released matrices, while the separate random cohort prevents interpreting that selection as a prevalence estimate. The Gaussian diagnostic in Appendix~\ref{app:d} concerns calibration and does not supply evidence for the near-boundary cost claim.

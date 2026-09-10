@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this private research artifact, cite the associated manuscript."
+title: "Near-boundary model comparisons: reproducibility repository"
+authors:
+  - family-names: Liu
+    given-names: Congkai
+version: 1.0.0
+date-released: 2026-09-10
+repository-code: "https://github.com/Ultramarine-1011/near-boundary-model-comparisons-reproducibility"

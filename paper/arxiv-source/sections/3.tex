@@ -1,0 +1,9 @@
+\section{Problem formulation}\label{sec:3}\label{problem-formulation}
+
+For items \(i=1,\ldots,N\), let \(a_i\),\(b_i\) be fixed scores in \([0,1]\) and \(d_i=a_i-b_i\). The target is \(\delta=N^{-1}\sum_i d_i\). Fix \(\epsilon\) in \([0,1)\) before observing the target responses. Define A when \(\delta>\epsilon\), E when \(-\epsilon\le\delta\le\epsilon\), and B when \(\delta<-\epsilon\). Thus A and B mean \emph{practical superiority}, rather than merely a positive or negative difference.
+
+Evaluating an item reveals both scores. We count pair-items and, when both responses must be generated, twice as many model calls. Algorithms may choose an unseen item using past observations and pre-existing metadata. They must return the correct label with probability at least \(1-\alpha\) for every admissible fixed vector. The probability is over the sampling design. At census the label is known exactly. Before census an unresolved result remains unresolved.
+
+This target excludes generation uncertainty. A cached stochastic response is treated as the fixed response being audited, not an estimate of its model's success probability. It also excludes sampling new subjects, new questions, or new prompt templates. The item-weighted target used here may differ from a leaderboard's mean-of-task-means convention. The public matrices include upstream filtering and are not described as complete official benchmark releases.
+
+Define the \textbf{decision gap} \(g=\bigl||\delta|-\epsilon\bigr|\). It is the distance to the nearest practical decision boundary, not the distance to zero. In particular, two almost equal models may be easy to certify as equivalent when \(\epsilon\) is appreciable, whereas a difference almost equal to \(\epsilon\) can be difficult. Gap is used to describe outcomes after a replay, never supplied to the stopping algorithm.

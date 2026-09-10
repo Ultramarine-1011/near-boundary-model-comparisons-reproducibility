@@ -1,0 +1,156 @@
+[
+  {
+    "dataset": "arc",
+    "archive": "atlas.zip",
+    "member": "data/gaussian_sampled_arc_response_matrix_test.csv",
+    "original_shape": [
+      417,
+      844
+    ],
+    "retained_shape": [
+      417,
+      844
+    ],
+    "incomplete_rows_removed": 0,
+    "pairs": 100,
+    "strata": 1,
+    "train": {
+      "complete_disjoint_rows": 3747,
+      "common_items": 844
+    },
+    "source_archive_sha256": "4c58404271957478b5c64b1b734e7c0825b1303ddbe5ce2c29c8629798f79e64",
+    "processed_sha256": "8cbfc34b1715017d113a171ff4dcc0a8058573fdc18e9baaae5cb3cd6aeb43ee"
+  },
+  {
+    "dataset": "gsm8k",
+    "archive": "atlas.zip",
+    "member": "data/gaussian_sampled_gsm8k_response_matrix_test.csv",
+    "original_shape": [
+      420,
+      1306
+    ],
+    "retained_shape": [
+      420,
+      1306
+    ],
+    "incomplete_rows_removed": 0,
+    "pairs": 100,
+    "strata": 1,
+    "train": {
+      "complete_disjoint_rows": 3775,
+      "common_items": 1306
+    },
+    "source_archive_sha256": "4c58404271957478b5c64b1b734e7c0825b1303ddbe5ce2c29c8629798f79e64",
+    "processed_sha256": "bacc5bd446d77a70e2e3b48876e87f3e98080591fdbb7be8b7096199446786cd"
+  },
+  {
+    "dataset": "hellaswag",
+    "archive": "atlas.zip",
+    "member": "data/gaussian_sampled_hellaswag_response_matrix_test.csv",
+    "original_shape": [
+      386,
+      5711
+    ],
+    "retained_shape": [
+      386,
+      5711
+    ],
+    "incomplete_rows_removed": 0,
+    "pairs": 100,
+    "strata": 1,
+    "train": {
+      "complete_disjoint_rows": 3467,
+      "common_items": 5711
+    },
+    "source_archive_sha256": "4c58404271957478b5c64b1b734e7c0825b1303ddbe5ce2c29c8629798f79e64",
+    "processed_sha256": "a9f3f8deca21adb42703c755072a5648bcf59cd63d8f6db964146a16bc394a6a"
+  },
+  {
+    "dataset": "truthfulqa",
+    "archive": "atlas.zip",
+    "member": "data/gaussian_sampled_truthfulqa_response_matrix_test.csv",
+    "original_shape": [
+      516,
+      644
+    ],
+    "retained_shape": [
+      516,
+      644
+    ],
+    "incomplete_rows_removed": 0,
+    "pairs": 100,
+    "strata": 1,
+    "train": {
+      "complete_disjoint_rows": 4635,
+      "common_items": 644
+    },
+    "source_archive_sha256": "4c58404271957478b5c64b1b734e7c0825b1303ddbe5ce2c29c8629798f79e64",
+    "processed_sha256": "c24b903a1edb913d8c7213f128e957e48e4420048b6f1c2fd3c785e32cfe2dc5"
+  },
+  {
+    "dataset": "winogrande",
+    "archive": "atlas.zip",
+    "member": "data/gaussian_sampled_winogrande_response_matrix_test.csv",
+    "original_shape": [
+      521,
+      1045
+    ],
+    "retained_shape": [
+      521,
+      1045
+    ],
+    "incomplete_rows_removed": 0,
+    "pairs": 100,
+    "strata": 1,
+    "train": {
+      "complete_disjoint_rows": 4680,
+      "common_items": 1045
+    },
+    "source_archive_sha256": "4c58404271957478b5c64b1b734e7c0825b1303ddbe5ce2c29c8629798f79e64",
+    "processed_sha256": "ed777419d8de4aefbfd0fa4c8a670a866da1ffb201414379c78f7cb84589f044"
+  },
+  {
+    "dataset": "mmlu-pro",
+    "archive": "mmlu-pro.zip",
+    "member": "M2.csv",
+    "original_shape": [
+      2213,
+      12032
+    ],
+    "retained_shape": [
+      2213,
+      12032
+    ],
+    "incomplete_rows_removed": 0,
+    "pairs": 100,
+    "strata": 1,
+    "train": {
+      "complete_disjoint_rows": 2212,
+      "common_items": 12032
+    },
+    "source_archive_sha256": "8e4e34cfb86659d3acae896aba56d01fc51ed5f8751077c33dd74b969054a874",
+    "processed_sha256": "62b8164bf5213cd63167d4ef65ef04eebc1474b449822dd6684a4d464dfaccc7"
+  },
+  {
+    "dataset": "composite",
+    "archive": "composite.zip",
+    "member": "M2.csv",
+    "original_shape": [
+      2212,
+      9574
+    ],
+    "retained_shape": [
+      2212,
+      9574
+    ],
+    "incomplete_rows_removed": 0,
+    "pairs": 100,
+    "strata": 38,
+    "train": {
+      "complete_disjoint_rows": 2211,
+      "common_items": 9574
+    },
+    "source_archive_sha256": "550498f5e894e31a8acfd54becbc880f5ef4c58435ef205c60c472db1d4e871d",
+    "processed_sha256": "7e74bf40ca115a99bf5cfd60df2b7359e86c9535bef85709a195e1e41a9af2d9"
+  }
+]

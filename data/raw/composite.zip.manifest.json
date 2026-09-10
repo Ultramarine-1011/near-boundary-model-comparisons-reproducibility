@@ -1,0 +1,48 @@
+{
+  "file": "composite.zip",
+  "url": "https://raw.githubusercontent.com/skbwu/efficiently-evaluating-llms/857ee18607bd9c84e90431ce0b8f36fc3f72ae68/data/processed/bbh%2Bgpqa%2Bifeval%2Bmath%2Bmusr.zip",
+  "sha256": "550498f5e894e31a8acfd54becbc880f5ef4c58435ef205c60c472db1d4e871d",
+  "bytes": 24138585,
+  "entries": [
+    {
+      "name": "M1_nfobs=0_p=0.01.csv",
+      "size": 22281171
+    },
+    {
+      "name": "M1_nfobs=0_p=0.001.csv",
+      "size": 21711282
+    },
+    {
+      "name": "M1_nfobs=0_p=0.0001.csv",
+      "size": 21653955
+    },
+    {
+      "name": "M1_nfobs=0_p=1e-05.csv",
+      "size": 21648141
+    },
+    {
+      "name": "M1_nfobs=50_p=0.1.csv",
+      "size": 29290917
+    },
+    {
+      "name": "M1_nfobs=200_p=0.1.csv",
+      "size": 33162534
+    },
+    {
+      "name": "M1_nfobs=800_p=0.1.csv",
+      "size": 48679815
+    },
+    {
+      "name": "M1_nfobs=None_p=1.0.csv",
+      "size": 85151826
+    },
+    {
+      "name": "M1.csv",
+      "size": 85151826
+    },
+    {
+      "name": "M2.csv",
+      "size": 85189051
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+dataset,method,runs,fraction,errors
+arc,joint_unstratified,100,0.6806161137440759,0
+arc,threshold_betting,100,0.5828199052132701,0
+composite,joint_unstratified,100,0.16875705034468352,0
+composite,threshold_betting,100,0.1455483601420514,0
+gsm8k,joint_unstratified,100,0.3258499234303216,0
+gsm8k,threshold_betting,100,0.28111791730474733,0
+hellaswag,joint_unstratified,100,0.34753108037121344,0
+hellaswag,threshold_betting,100,0.2989038697250919,0
+mmlu-pro,joint_unstratified,100,0.11664893617021276,0
+mmlu-pro,threshold_betting,100,0.1030892619680851,0
+truthfulqa,joint_unstratified,100,0.6284472049689441,0
+truthfulqa,threshold_betting,100,0.5409937888198758,0
+winogrande,joint_unstratified,100,0.6586985645933013,0
+winogrande,threshold_betting,100,0.560200956937799,0

@@ -1,0 +1,42 @@
+\section{Theory: a boundary obstruction and an early-stopping regime}\label{sec:5}\label{theory-a-boundary-obstruction-and-an-early-stopping-regime}
+
+\subsection{Information in unseen coordinates}\label{information-in-unseen-coordinates}
+
+\begin{theorem}[inclusion constraint]\label{main-theorem1} For any uniformly \(\alpha\)-correct algorithm, \(\alpha<1/2\), let $Q$ be the queried set at termination. Two admissible finite score vectors with different correct labels that differ only on \(J\) imply \(\mathbb P(Q\cap J\ne\varnothing)\ge1-2\alpha\) under either vector. The algorithm may choose unseen items adaptively, but the two worlds must have identical external side information.
+\end{theorem}
+
+\begin{proof} Couple their internal randomness. Until \(J\) is queried their histories coincide. A shared terminal history avoiding \(J\) produces the same output in both worlds, wrong in at least one. Its probability is at most the sum of the two error probabilities. Complete consequences and cost variants are proved in Appendix~\ref{app:a}.\end{proof}
+
+This is an indistinguishability argument, not a new confidence-sequence construction. It expresses why a stable observed prefix cannot exclude an unseen label-changing item.
+
+\subsection{From exact boundaries to nonconstant near-boundary populations}\label{from-exact-boundaries-to-nonconstant-near-boundary-populations}
+
+At \(\delta=\epsilon\), increasing any coordinate with \(d_i<1\) changes equivalence to practical superiority, if that change remains admissible. For known positive costs \(c_i\),
+
+\begin{equation}\label{eq:5-1}
+\mathbb E[\mathrm{cost}]\ge(1-2\alpha)\sum_{i:d_i<1}c_i.
+\end{equation}
+
+Thus a constant vector \(d_i=\epsilon\) requires at least \(.9N\) expected evaluations at \(\alpha=.05\), despite zero variance. For ternary paired scores at that boundary with disagreement \(q\), the bound is \(.9N[1-(q+\epsilon)/2]\). These are necessary costs, not predictions of a particular algorithm's exact stopping time.
+
+\begin{theorem}[edit-capacity and gap]\label{main-theorem2} Choose the direction through a nearest boundary toward a different label. Let \(a_i\) be the maximum change of coordinate i in that direction (\(1-d_i\) for increasing, \(1+d_i\) for decreasing). For \(h>0\) define \(I_h=\{i:a_i\ge h\}\), \(M=|I_h|\), and \(k=\lfloor Ng/h\rfloor+1\). If \(k\le M\) and every endpoint replacement of a \(k\)-subset of \(I_h\) is admissible, then
+\begin{equation}\label{eq:5-2}
+\mathbb E[|Q\cap I_h|]\ge(M-k+1)\bigl[1-(2\alpha)^{1/k}\bigr].
+\end{equation}
+\end{theorem}
+
+In particular, \(g<h/N\) implies \(\mathbb E\tau\ge(1-2\alpha)M\). The bound applies to nonconstant vectors on either side of either boundary. For unequal costs it also yields \(\min_{i\in I_h}c_i\) times the displayed bound; the singleton form above can be stronger. Appendix~\ref{app:a} proves the result by averaging Theorem~\ref{main-theorem1} over \(k\)-subsets and applying a convex hypergeometric bound. The previous homogeneous hidden-exception bound is a special case.
+
+Holding the admissible capacity set fixed, decreasing \(g\) strengthens this obstruction stepwise. Changing populations also changes their capacity sets and sampling information: the theorem does not imply that gap alone orders all stopping costs. This is an elementary consequence of the inclusion constraint; it provides a necessary cost rather than an optimal stopping rule.
+
+\subsection{When early certification is sufficient}\label{when-early-certification-is-sufficient}
+
+There is also a distribution-free positive statement. Let \(L=\log(2N/\alpha)\) and
+
+\begin{equation}\label{eq:5-3}
+t_0=\min\left\{N,\left\lfloor\frac{8L(N+1)}{Ng^2+8L}\right\rfloor+1\right\}.
+\end{equation}
+
+For \(g>0\), an all-look Hoeffding--Serfling procedure with \(\alpha/N\) spending obeys \(\mathbb P(\tau\le t_0)\ge1-\alpha\) and \(\mathbb E\tau\le t_0+\alpha(N-t_0)\). Its radius \(r_t=\sqrt{2[1-(t-1)/N]L/t}\) is simultaneous; on coverage, the CI certifies once \(2r_t<g\). Appendix~\ref{app:a} gives the derivation. This is a conservative existence result using established concentration, not an optimized bound for our betting implementation.
+
+Hence \(Ng^2\) much larger than \(\log(N/\alpha)\) is sufficient for a small high-probability evaluation fraction, while capacity-rich populations with \(Ng<h\) face a large unavoidable fraction. The gap between these sufficient and necessary regimes is substantial. A variance-based approximation suggests a crossover controlled partly by \(Ng^2/\mathrm{variance}\), but we neither prove that collapse nor claim a sharp phase transition. Zero-variance and high-disagreement populations show why a single universal gap curve would be misleading.

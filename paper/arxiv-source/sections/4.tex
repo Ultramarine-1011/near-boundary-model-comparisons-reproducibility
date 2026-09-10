@@ -1,0 +1,21 @@
+\section{Methods}\label{sec:4}\label{methods}
+
+\subsection{Confidence-sequence decisions}\label{confidence-sequence-decisions}
+
+Let \(C_t=[L_t,U_t]\) be an anytime-valid confidence sequence for \(\delta\). Stop with A if \(L_t>\epsilon\), with B if \(U_t<-\epsilon\), and with E if \(C_t\) is contained in {[}-\(\epsilon\),\(\epsilon\){]}. Empty intersections produce no certificate. Otherwise continue, or at census compute the exact mean. On the simultaneous coverage event, every certified decision is correct. Consequently the probability of any wrong final label is at most \(\alpha\); a separate correction for three labels is unnecessary.
+
+We apply the existing finite-population constructions to \(X=(d+1)/2\). At step \(t\), with \(R_t=N-t+1\) and previously observed sum \(S_{t-1}\), its conditional mean is \((N\mu-S_{t-1})/R_t\). The empirical-Bernstein exponential factors use predictable estimates of the next observation and \(\psi(\lambda)=-\log(1-\lambda)-\lambda\). Appendix~\ref{app:a} gives the full construction and proof.
+
+The grid variant intersects eight constant-bet confidence sequences, with bets .01, .025, .05, .1, .2, .4, .6, .8 and a Bonferroni allocation across bets and signs. The predictable variant follows the variance-sensitive schedule described in the implementation. Both intersect earlier intervals and the deterministic bounded-completion interval. These choices were fixed before examining real-data results.
+
+\subsection{Comparators and direct betting tests}\label{comparators-and-direct-betting-tests}
+
+The core certified comparators are the empirical-Bernstein variants, a Hoeffding bet grid, and fixed-look Hoeffding--Serfling bounds with spending over geometric checkpoints. A deterministic completion rule and full census provide assumption-light references. Separate-arm empirical-Bernstein intervals, with \(\alpha\) split between the two models, isolate the benefit of pairing.
+
+Repeated normal intervals are included as an explicitly uncertified diagnostic, using finite-population variance correction and a minimum of 20 observations. Fixed-budget plug-in classifiers at 10\%, 25\%, and 50\% of the benchmark are also uncertified and reported separately. Their lower costs do not establish an advantage under equal validity requirements.
+
+We also include direct mixtures of standard linear betting factors for the four directional threshold hypotheses at \(\pm\epsilon\). Each directional test receives \(\alpha/2\). For any one true label, at most two rejection events can cause a wrong decision, yielding an overall \(\alpha\) guarantee. This comparator is an adaptation of established betting inference, not an independently novel method. It uses the same pair cohorts and replay seeds as the core methods.
+
+\subsection{Evidence used for the central comparison}\label{evidence-used-for-the-central-comparison}
+
+Direct betting and EB-grid use identical frozen populations and replay permutations, with the same practical labels and error guarantee. Figure~\ref{fig:boundary} shows the direct-betting cost landscape; EB-grid and other certified baselines provide method sensitivity in Appendix~\ref{app:c}. A supplementary Gaussian calibration diagnostic is documented separately in Appendix~\ref{app:d}. Stratification, surrogate and low-rank analyses are also supplementary.

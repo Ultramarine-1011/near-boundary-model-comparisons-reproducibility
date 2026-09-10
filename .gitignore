@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+.cache/
+data/raw/*.zip
+data/processed/*.npz
+results/*.jsonl
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+work/

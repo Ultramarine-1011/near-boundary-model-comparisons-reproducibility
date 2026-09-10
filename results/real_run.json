@@ -1,0 +1,10 @@
+{
+  "arguments": {
+    "study": "real",
+    "reps": 30,
+    "pairs": 100
+  },
+  "elapsed_seconds": 376.59757471084595,
+  "numpy": "2.3.5",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]"
+}

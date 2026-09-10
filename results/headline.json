@@ -1,0 +1,9 @@
+{
+  "simulation_runs": 414000,
+  "real_runs": 462000,
+  "stratification_runs": 6500,
+  "max_certified_sim_error": 0.007,
+  "max_normal_sim_error": 0.534,
+  "eb_real_cost_fraction": 0.41635001708545594,
+  "eb_real_errors": 0
+}

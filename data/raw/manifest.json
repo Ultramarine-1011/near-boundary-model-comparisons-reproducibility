@@ -1,0 +1,20 @@
+[
+  {
+    "file": "atlas.zip",
+    "url": "https://raw.githubusercontent.com/Peiyu-Georgia-Li/ATLAS/a42e4d174de821f2f0ac2c1fee454afa4964d030/data/data.zip",
+    "sha256": "4c58404271957478b5c64b1b734e7c0825b1303ddbe5ce2c29c8629798f79e64",
+    "bytes": 8462263
+  },
+  {
+    "file": "mmlu-pro.zip",
+    "url": "https://raw.githubusercontent.com/skbwu/efficiently-evaluating-llms/857ee18607bd9c84e90431ce0b8f36fc3f72ae68/data/processed/mmlu-pro.zip",
+    "sha256": "8e4e34cfb86659d3acae896aba56d01fc51ed5f8751077c33dd74b969054a874",
+    "bytes": 29899569
+  },
+  {
+    "file": "composite.zip",
+    "url": "https://raw.githubusercontent.com/skbwu/efficiently-evaluating-llms/857ee18607bd9c84e90431ce0b8f36fc3f72ae68/data/processed/bbh%2Bgpqa%2Bifeval%2Bmath%2Bmusr.zip",
+    "sha256": "550498f5e894e31a8acfd54becbc880f5ef4c58435ef205c60c472db1d4e871d",
+    "bytes": 24138585
+  }
+]

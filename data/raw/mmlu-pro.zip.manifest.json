@@ -1,0 +1,48 @@
+{
+  "file": "mmlu-pro.zip",
+  "url": "https://raw.githubusercontent.com/skbwu/efficiently-evaluating-llms/857ee18607bd9c84e90431ce0b8f36fc3f72ae68/data/processed/mmlu-pro.zip",
+  "sha256": "8e4e34cfb86659d3acae896aba56d01fc51ed5f8751077c33dd74b969054a874",
+  "bytes": 29899569,
+  "entries": [
+    {
+      "name": "M1_nfobs=0_p=0.01.csv",
+      "size": 27700082
+    },
+    {
+      "name": "M1_nfobs=0_p=0.001.csv",
+      "size": 26980925
+    },
+    {
+      "name": "M1_nfobs=0_p=0.0001.csv",
+      "size": 26909870
+    },
+    {
+      "name": "M1_nfobs=0_p=1e-05.csv",
+      "size": 26902790
+    },
+    {
+      "name": "M1_nfobs=50_p=0.1.csv",
+      "size": 36509966
+    },
+    {
+      "name": "M1_nfobs=200_p=0.1.csv",
+      "size": 41381387
+    },
+    {
+      "name": "M1_nfobs=800_p=0.1.csv",
+      "size": 60875138
+    },
+    {
+      "name": "M1_nfobs=None_p=1.0.csv",
+      "size": 106303983
+    },
+    {
+      "name": "M1.csv",
+      "size": 106303983
+    },
+    {
+      "name": "M2.csv",
+      "size": 106350858
+    }
+  ]
+}

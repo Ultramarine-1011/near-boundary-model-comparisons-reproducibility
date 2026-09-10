@@ -1,0 +1,34 @@
+{
+  "real": {
+    "rows": 462000,
+    "target_means_and_labels": "verified against integer score totals"
+  },
+  "betting_real": {
+    "rows": 21000,
+    "target_means_and_labels": "verified against integer score totals"
+  },
+  "stratification": {
+    "rows": 6500,
+    "target_means_and_labels": "verified against integer score totals"
+  },
+  "prediction_real": {
+    "rows": 6300,
+    "target_means_and_labels": "verified against integer score totals"
+  },
+  "lowrank_real": {
+    "rows": 4200,
+    "target_means_and_labels": "verified against integer score totals"
+  },
+  "close_pairs": {
+    "rows": 56000,
+    "target_means_and_labels": "verified against integer score totals"
+  },
+  "joint_stratification": {
+    "rows": 5800,
+    "target_means_and_labels": "verified against integer score totals"
+  },
+  "joint_controls": {
+    "rows": 1400,
+    "target_means_and_labels": "verified against integer score totals"
+  }
+}

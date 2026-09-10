@@ -1,0 +1,100 @@
+{
+  "other": "C:\\Users\\26255\\Documents\\Codex\\2026-09-08\\arxiv-md-latex-ai-llm-benchmark\\work\\clean_reproduction\\research",
+  "score_arrays": {
+    "arc.npz": "all named arrays exactly equal",
+    "composite.npz": "all named arrays exactly equal",
+    "gsm8k.npz": "all named arrays exactly equal",
+    "hellaswag.npz": "all named arrays exactly equal",
+    "mmlu-pro.npz": "all named arrays exactly equal",
+    "truthfulqa.npz": "all named arrays exactly equal",
+    "winogrande.npz": "all named arrays exactly equal"
+  },
+  "replay_files": {
+    "simulation": {
+      "sha256": "1935af44e73d462f7c06dbab1865a0863dee3247a90f34b33d137954cdec09be",
+      "rows": 414000,
+      "exact_match": true
+    },
+    "real": {
+      "sha256": "0acae07385bb48b5a295ade3b9704007835f2645c96140e7c7b111b376edf6b7",
+      "rows": 462000,
+      "exact_match": true
+    },
+    "stratification": {
+      "sha256": "62fbe0ff73e454ffb94caf0b645c860ea2bdc98b0a6f7619568067e8b14020e2",
+      "rows": 6500,
+      "exact_match": true
+    },
+    "betting_real": {
+      "sha256": "0cf4a1856598b20cc71ecd5485bf04e297108f320f32d8b9dd606f2846fff0db",
+      "rows": 21000,
+      "exact_match": true
+    },
+    "heterogeneity_simulation": {
+      "sha256": "a57e83c78daed01a264cf9027ae2e95aab9b8bbc9700ea9c4b0d671bf69cdb77",
+      "rows": 3600,
+      "exact_match": true
+    },
+    "betting_simulation": {
+      "sha256": "f3858677f6b3176160fa4e1436867138b382a4a44ebccdfdb3793028b010e74e",
+      "rows": 69000,
+      "exact_match": true
+    },
+    "prediction_real": {
+      "sha256": "5017ad5aea0a6437613b4e5e69edd157301f46509192cc9f25fa15987f8d3816",
+      "rows": 6300,
+      "exact_match": true
+    },
+    "cost_simulation": {
+      "sha256": "b49f789044a0eced39d48e77eaccfb25cf0c65d204453edb299a43cf2898c828",
+      "rows": 1800,
+      "exact_match": true
+    },
+    "close_pairs": {
+      "sha256": "d23aada39c9dede046c0d66b165c4fae53bbfd66294b6b50bab2679907cef8e6",
+      "rows": 56000,
+      "exact_match": true
+    },
+    "joint_stratification": {
+      "sha256": "7c66d86ab79d940d532bd4763bb09851d801dda3de0c1067583cf16f1d01ff5d",
+      "rows": 5800,
+      "exact_match": true
+    },
+    "joint_controls": {
+      "sha256": "15dc6f715b4abc9817f8f8f69e058def82072802f011e49a12a406c1e7bd072e",
+      "rows": 1400,
+      "exact_match": true
+    },
+    "lowrank_real": {
+      "sha256": "76b5f3278fcd1c71b29872d0e8325aa9e94ec048fcd4d8ea1734ca436a71037c",
+      "rows": 4200,
+      "exact_match": true
+    }
+  },
+  "supplemental_steps": 2,
+  "pipeline_steps": 21,
+  "matched_source_files": {
+    "src/finite_eval.py": "11a118c571cc1e287fef85db99573b3d83040730edebadf799f952489b20b655",
+    "src/lowrank_predictor.py": "e66134f02c28a6cf7bb0dbdda0bfbf89f9ae17f4a5444e7fdca9a560359243b6",
+    "src/prediction_eval.py": "b0eda6abff5c367d4350103df04f9afb5c0a3fcbe051872c20867dd0133f7100",
+    "src/stratified_joint.py": "39bfb96929a15463d7b64cff50a8918b7714929510ce0c758d4f30c3cc6edf2b",
+    "scripts/download_data.py": "022a19026ec6c89162f2daf2e9445fdae12325ed7533861fd75245a2306621a3",
+    "scripts/prepare_data.py": "d4d6b6ee0d06be43de99ecf0b924812d985727f15f4620781423fde8e242cbff",
+    "scripts/run_experiments.py": "837c2d32fc57a8e69da11743ccabea54606b89652797ca8cca84f0d765411c1d",
+    "scripts/additional_experiments.py": "85828686f824482efda5e0d537f00e2ad372396f04d18b31e2eb43a929ae86cd",
+    "scripts/betting_simulation.py": "023a26d1be26d85a2df814c8dbc5b57f4af2bbd7a9145a54f60c7376ba7d5c21",
+    "scripts/prediction_experiments.py": "62413477757b20763e2107df2bf2acc497769201836cadf356bf3a16582213b8",
+    "scripts/lowrank_experiments.py": "2a3a3f7adf0dd9f4cb44dfff03d85022a6c92c05237134b12a7de72b853d8358",
+    "scripts/cost_experiments.py": "d894fe0c0850789ced9f8262f7a8ad6d1833899e26eeb9615d05b3d3eeb40b51",
+    "scripts/close_pair_experiments.py": "35af6f4147b3a3a85616c377d8dd50648786a0cc3d087b94011ea2968007cdbc",
+    "scripts/joint_stratification_experiments.py": "ddd4e5bb5406f2a126dbe4ea174f76386de2ad7bf4d4a523f01fa82e79e76cfb",
+    "scripts/joint_controls.py": "58e8d988ba1f134dba38c8bcd3dd1d52b56a65bc255e1fcd67dc20946e865d80",
+    "scripts/summarize.py": "71dfeb0cc3676ad96b40f091589a2b4f6950a4a08dc0e3a6ffa3c7966fe23517",
+    "scripts/summarize_additional.py": "fec57ab8860d945329167da0457fb999e79c5696d3f18881edd007c7e7421734",
+    "scripts/summarize_followups.py": "ab1e600819a8d2ab066ec085bd02d90c0a0e9b7df82e3edabd22aaa0f477fee7",
+    "scripts/summarize_joint.py": "f830553f30eb7fe563ad1ddf9a57cac9aec60f5071d80c8140d688dc79a33c96",
+    "scripts/summarize_lowrank.py": "f9311a39e0c2ac904173ed985c9b5672cf991d17e1e1a05b48d954d77ea92619",
+    "scripts/audit_results.py": "9506e2f80bb27ecece351406348e95667b49f03adf55e7dd5903df495f7378e8",
+    "scripts/build_manuscript.py": "b4ec1e9f78c21cfbc47734523ef442d0b375715610d8ca835027600faf680ebe"
+  }
+}

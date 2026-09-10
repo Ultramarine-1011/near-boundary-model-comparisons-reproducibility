@@ -1,0 +1,12 @@
+{
+  "checked_pair_means": 840,
+  "random_pairs": 700,
+  "stress_pairs": 140,
+  "new_evaluation_runs": 0,
+  "scope": "Standard-library reconstruction of plotted pair means and gaps from existing JSONL records.",
+  "files": {
+    "betting_real.jsonl": "0cf4a1856598b20cc71ecd5485bf04e297108f320f32d8b9dd606f2846fff0db",
+    "close_pairs.jsonl": "d23aada39c9dede046c0d66b165c4fae53bbfd66294b6b50bab2679907cef8e6",
+    "boundary_figure_pairs.csv": "c67259d6c4d705b338c1a19b72acf50ad6e7f95b4b597587989f36d430cdb8f2"
+  }
+}

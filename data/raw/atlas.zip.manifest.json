@@ -1,0 +1,52 @@
+{
+  "file": "atlas.zip",
+  "url": "https://raw.githubusercontent.com/Peiyu-Georgia-Li/ATLAS/main/data/data.zip",
+  "sha256": "4c58404271957478b5c64b1b734e7c0825b1303ddbe5ce2c29c8629798f79e64",
+  "bytes": 8462263,
+  "entries": [
+    {
+      "name": "data/gaussian_sampled_arc_response_matrix_test.csv",
+      "size": 720373
+    },
+    {
+      "name": "data/gaussian_sampled_arc_response_matrix_train.csv",
+      "size": 6447309
+    },
+    {
+      "name": "data/gaussian_sampled_arc_response_matrix_train_with_scores.csv",
+      "size": 6518281
+    },
+    {
+      "name": "data/gaussian_sampled_gsm8k_response_matrix_test.csv",
+      "size": 1115457
+    },
+    {
+      "name": "data/gaussian_sampled_gsm8k_response_matrix_train_with_scores.csv",
+      "size": 10057518
+    },
+    {
+      "name": "data/gaussian_sampled_hellaswag_response_matrix_test.csv",
+      "size": 4449335
+    },
+    {
+      "name": "data/gaussian_sampled_hellaswag_response_matrix_train_with_scores.csv",
+      "size": 39803492
+    },
+    {
+      "name": "data/gaussian_sampled_truthfulqa_response_matrix_test.csv",
+      "size": 683565
+    },
+    {
+      "name": "data/gaussian_sampled_truthfulqa_response_matrix_train_with_scores.csv",
+      "size": 6208635
+    },
+    {
+      "name": "data/gaussian_sampled_winogrande_response_matrix_test.csv",
+      "size": 1110060
+    },
+    {
+      "name": "data/gaussian_sampled_winogrande_response_matrix_train_with_scores.csv",
+      "size": 10023129
+    }
+  ]
+}

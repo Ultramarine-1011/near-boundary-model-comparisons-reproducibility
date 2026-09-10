@@ -1,0 +1,7 @@
+case,method,runs,fraction,errors,error_rate,cost_fraction
+cheap_constant,neyman,300,0.3995,0,0.0,0.6839473684210521
+cheap_constant,proportional,300,0.85801,0,0.0,0.8578394736842104
+cheap_constant,unstratified,300,0.7683166666666666,0,0.0,0.7684271929824558
+expensive_constant,neyman,300,0.3995,0,0.0,0.34010989010989
+expensive_constant,proportional,300,0.8571283333333334,0,0.0,0.8571294871794868
+expensive_constant,unstratified,300,0.7729316666666667,0,0.0,0.7732117216117212

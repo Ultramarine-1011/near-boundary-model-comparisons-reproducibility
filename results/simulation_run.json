@@ -1,0 +1,10 @@
+{
+  "arguments": {
+    "study": "simulation",
+    "reps": 1000,
+    "pairs": 100
+  },
+  "elapsed_seconds": 136.70403790473938,
+  "numpy": "2.3.5",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]"
+}
