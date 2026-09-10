@@ -10,7 +10,7 @@ Both ZIPs were extracted and successfully compiled independently. The arXiv rebu
 
 1. Authorship, affiliation, final scientific content, and the factual accuracy of the supplied AI disclosure, especially its statement of completed human review.
 2. License (CC BY 4.0 proposed), categories (cs.LG / stat.ML proposed), and rights to publish the text and graphics.
-3. Whether to make the private GitHub code/reproduction repository available to reviewers or publish a separate public archive before v1. The PDF accurately states that the implementation and audit records are retained privately.
+3. Whether to grant reviewers access to the private GitHub code/reproduction repository at https://github.com/Ultramarine-1011/near-boundary-model-comparisons-reproducibility or publish a separate public archive before v1. The PDF states that the repository is private and is not a public archive.
 4. Account/endorsement requirements and arXiv's actual server-generated PDF before pressing Submit. Later TMLR submission needs a separately anonymized version and a check for concurrent journal/conference review.
 
 Local compilation does not establish arXiv acceptance or replace author review. Detailed hashes are in `validation.json`; dated official sources are in `OFFICIAL_REQUIREMENTS.md`.
