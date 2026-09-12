@@ -1,12 +1,12 @@
 # Near-boundary model comparisons: reproducibility repository
 
-This private repository contains the implementation, tests, analysis scripts, figures, lightweight audit summaries, and arXiv source associated with:
+This public repository contains the implementation, tests, analysis scripts, figures, lightweight audit summaries, and arXiv source associated with:
 
 > The Cost of Certifying Near-Boundary Model Comparisons on Finite Benchmarks
 
 Repository URL: https://github.com/Ultramarine-1011/near-boundary-model-comparisons-reproducibility
 
-The repository is intentionally private. It is not a public archive and access is not implied by the manuscript. No model API keys, credentials, or secrets are required by the code.
+The repository is a public reproducibility archive. No model API keys, credentials, or secrets are required by the code.
 
 ## Contents
 
@@ -16,7 +16,7 @@ The repository is intentionally private. It is not a public archive and access i
 - `figures/`: regenerated figures and source graphics.
 - `results/`: compact CSV/JSON/Markdown summaries and audit metadata. Large replay JSONL files are intentionally excluded.
 - `data/`: provenance and fixed-source manifests. Raw archives and processed response matrices are intentionally excluded.
-- `paper/`: the arXiv source package and release checks.
+- `paper/`: the arXiv source snapshot and concise release metadata.
 - `THEORY.md`, `CLAIMS.md`, `PROTOCOL.md`, `BASELINE_SCOPE.md`, and `REPRODUCE.md`: scientific scope, evidence mapping, and reproduction instructions.
 
 ## Reproduction
@@ -35,6 +35,8 @@ The repository does not redistribute upstream archives or processed response mat
 
 ## Scope and status
 
-This is a reproducibility and audit repository for the submitted manuscript version. It does not claim a new generic three-way testing framework, universal cost superiority, population generalization, or monetary savings. The empirical records are finite-benchmark replay studies over fixed response matrices; replays are not new model evaluations.
+This is a reproducibility and audit repository for the associated arXiv v1 manuscript version. It does not claim a new generic three-way testing framework, universal cost superiority, population generalization, or monetary savings. The empirical records are finite-benchmark replay studies over fixed response matrices; replays are not new model evaluations.
 
 The arXiv source package is included under `paper/arxiv-source/`. The final manuscript PDF and build intermediates are kept outside this code repository.
+
+Original code in `src/`, `scripts/`, and `tests/` is released under the MIT License in `LICENSE`. Upstream response matrices and the bundled TMLR style files retain their own licensing terms.

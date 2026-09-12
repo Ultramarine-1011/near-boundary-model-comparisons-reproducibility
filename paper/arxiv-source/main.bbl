@@ -1,0 +1,136 @@
+\begin{thebibliography}{20}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Arviv et~al.(2026)Arviv, Greenewald, Perlitz, Mulian, Shmueli-Scheuer,
+  and Choshen]{r3}
+Ofir Arviv, Kristjan Greenewald, Yotam Perlitz, Hadar Mulian, Michal
+  Shmueli-Scheuer, and Leshem Choshen.
+\newblock {Stop Guessing When to Stop Testing: Efficient Model Evaluation with
+  Just Enough Data}, 2026.
+\newblock URL \url{https://arxiv.org/abs/2607.08522}.
+
+\bibitem[Balk{\i}r et~al.(2026)Balk{\i}r, Pernthaller, Basaldella,
+  Hern{\'a}ndez-Orallo, and Collier]{r12}
+Esma Balk{\i}r, Alice Pernthaller, Marco Basaldella, Jos{\'e}
+  Hern{\'a}ndez-Orallo, and Nigel Collier.
+\newblock {Confident Rankings with Fewer Items: Adaptive LLM Evaluation with
+  Continuous Scores}, 2026.
+\newblock URL \url{https://arxiv.org/abs/2601.13885}.
+
+\bibitem[{Cordero Encinar} et~al.(2026){Cordero Encinar}, Cemgil, Doucet,
+  Aglietti, and Chiappa]{r9}
+Paula {Cordero Encinar}, Taylan Cemgil, Arnaud Doucet, Virginia Aglietti, and
+  Silvia Chiappa.
+\newblock {BayesAME: Bayesian Active Model Evaluation}, 2026.
+\newblock URL \url{https://arxiv.org/abs/2607.27023}.
+
+\bibitem[Hsu \& Shekhar(2026)Hsu and Shekhar]{r8}
+Chia-Yu Hsu and Shubhanshu Shekhar.
+\newblock {Efficient Sequential Evaluation of Large Language Models}, 2026.
+\newblock URL \url{https://arxiv.org/abs/2607.17409}.
+
+\bibitem[Jennison \& Turnbull(1993)Jennison and Turnbull]{r2}
+Christopher Jennison and Bruce~W. Turnbull.
+\newblock {Sequential equivalence testing and repeated confidence intervals,
+  with applications to normal and binary responses}, 1993.
+\newblock URL
+  \url{https://researchportal.bath.ac.uk/en/publications/sequential-equivalence-testing-and-repeated-confidence-intervals-/}.
+\newblock Biometrics 49(1), 1993.
+
+\bibitem[Jiang et~al.(2026)Jiang, Kwon, Luo, Xiao, and Zhang]{r11}
+Han Jiang, Sunbeom Kwon, Jinwen Luo, Ziang Xiao, and Susu Zhang.
+\newblock {Can We Trust Item Response Theory for AI Evaluation?}, 2026.
+\newblock URL \url{https://arxiv.org/abs/2607.15190}.
+
+\bibitem[Kato \& Nakagawa(2026)Kato and Nakagawa]{r18}
+Masahiro Kato and Kei Nakagawa.
+\newblock {Sequential Audit Sampling for Finite Populations with Exact and
+  Simulation-based Guarantee}, 2026.
+\newblock URL \url{https://arxiv.org/html/2604.06116v2}.
+\newblock Version 2, August 2026.
+
+\bibitem[Li et~al.(2026{\natexlab{a}})Li, Chen, and Huang]{r15}
+Boning Li, Yu~Chen, and Longbo Huang.
+\newblock {AV-AIVAT: 74$\times$ Cheaper Agent Evaluation with Certified
+  Anytime-Valid Stopping in Imperfect-Information Games}, 2026{\natexlab{a}}.
+\newblock URL \url{https://arxiv.org/abs/2608.06362}.
+
+\bibitem[Li et~al.(2026{\natexlab{b}})Li, Tang, Chen, Cheng, Metoyer, Hua, and
+  Chawla]{r10}
+Peiyu Li, Xiuxiu Tang, Si~Chen, Ying Cheng, Ronald Metoyer, Ting Hua, and
+  Nitesh~V. Chawla.
+\newblock {Adaptive Testing for LLM Evaluation: A Psychometric Alternative to
+  Static Benchmarks}, 2026{\natexlab{b}}.
+\newblock URL \url{https://arxiv.org/abs/2511.04689}.
+\newblock Version 3, 2026; initial preprint 2025.
+
+\bibitem[Lyu et~al.(2026)Lyu, Nejma, Wegel, Yang, and Dorner]{r5}
+Zifan Lyu, Chahine Nejma, Tobias Wegel, Fanny Yang, and Florian~E. Dorner.
+\newblock {Cutting LLM Evaluation Costs with SySRs: A Bandit Algorithm that
+  Provably Exploits Model Similarity}, 2026.
+\newblock URL \url{https://arxiv.org/abs/2606.07726}.
+
+\bibitem[{Maia Polo} et~al.(2024){Maia Polo}, Weber, Choshen, Sun, Xu, and
+  Yurochkin]{r16}
+Felipe {Maia Polo}, Lucas Weber, Leshem Choshen, Yuekai Sun, Gongjun Xu, and
+  Mikhail Yurochkin.
+\newblock {tinyBenchmarks: evaluating LLMs with fewer examples}, 2024.
+\newblock URL \url{https://arxiv.org/abs/2402.14992}.
+
+\bibitem[Neuhof \& Benjamini(2026)Neuhof and Benjamini]{r13}
+Bitya Neuhof and Yuval Benjamini.
+\newblock {Quantifying Ranking Uncertainty in LLM Benchmarks}, 2026.
+\newblock URL \url{https://arxiv.org/abs/2607.16259}.
+
+\bibitem[Pilditch(2026)]{r14}
+Toby~D. Pilditch.
+\newblock {Knowing When to Stop: Bayesian Optimal Stopping for LLM
+  Evaluations}, 2026.
+\newblock URL \url{https://arxiv.org/abs/2608.14425}.
+
+\bibitem[Shekhar \& Ramdas(2026)Shekhar and Ramdas]{r17}
+Shubhanshu Shekhar and Aaditya Ramdas.
+\newblock {Tighter Confidence Intervals under Without Replacement Sampling via
+  Empirical Rate Functions}, 2026.
+\newblock URL \url{https://arxiv.org/html/2603.14423v1}.
+
+\bibitem[Shekhar et~al.(2023)Shekhar, Xu, Lipton, Liang, and Ramdas]{r20}
+Shubhanshu Shekhar, Ziyu Xu, Zachary Lipton, Pierre Liang, and Aaditya Ramdas.
+\newblock {Risk-limiting financial audits via weighted sampling without
+  replacement}, 2023.
+\newblock URL \url{https://proceedings.mlr.press/v216/shekhar23a.html}.
+
+\bibitem[Spertus et~al.(2026)Spertus, Sridhar, and Stark]{r4}
+Jacob~V. Spertus, Mayuri Sridhar, and Philip~B. Stark.
+\newblock {Sequential stratified inference for the mean}, 2026.
+\newblock URL \url{https://arxiv.org/abs/2409.06680}.
+\newblock Version 3, 2026; initial preprint 2024.
+
+\bibitem[Tolochinsky et~al.(2026)Tolochinsky, Tenzer, and Romano]{r6}
+Elad Tolochinsky, Yaniv Tenzer, and Yaniv Romano.
+\newblock {Valid Best-Model Identification for LLM Evaluation via Low-Rank
+  Factorization}, 2026.
+\newblock URL \url{https://arxiv.org/abs/2605.10405}.
+
+\bibitem[Waudby-Smith \& Ramdas(2020)Waudby-Smith and Ramdas]{r1}
+Ian Waudby-Smith and Aaditya Ramdas.
+\newblock {Confidence Sequences for Sampling Without Replacement}, 2020.
+\newblock URL \url{https://arxiv.org/abs/2006.04347}.
+
+\bibitem[Waudby-Smith et~al.(2021)Waudby-Smith, Stark, and Ramdas]{r19}
+Ian Waudby-Smith, Philip~B. Stark, and Aaditya Ramdas.
+\newblock {RiLACS: Risk-Limiting Audits via Confidence Sequences}, 2021.
+\newblock URL \url{https://arxiv.org/html/2107.11323v2}.
+\newblock EVoteID 2021.
+
+\bibitem[Zhou et~al.(2026)Zhou, Ye, Chen, Li, and Liu]{r7}
+Zhijian Zhou, Zesheng Ye, Zhaorun Chen, Bo~Li, and Feng Liu.
+\newblock {CELEUS: Certifiable and Efficient LLM Evaluation via E-Processes},
+  2026.
+\newblock URL \url{https://arxiv.org/abs/2606.20820}.
+
+\end{thebibliography}

@@ -1,10 +1,9 @@
 from pathlib import Path
-import sys,json,os
+import json,os
 import numpy as np
 import pandas as pd
 ROOT=Path(__file__).resolve().parents[1]
-sys.path.insert(0,str(ROOT.parents[1]/'work'/'deps'))
-os.environ['MPLCONFIGDIR']=str(ROOT.parents[1]/'work'/'mplconfig')
+os.environ['MPLCONFIGDIR']=str(ROOT / '.cache' / 'mplconfig')
 from scipy.stats import beta
 import matplotlib
 matplotlib.use('Agg')

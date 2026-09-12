@@ -1,8 +1,7 @@
 from pathlib import Path
-import sys,os
+import os
 ROOT=Path(__file__).resolve().parents[1]
-sys.path.insert(0,str(ROOT.parents[1]/'work'/'deps'))
-os.environ.setdefault('MPLCONFIGDIR',str(ROOT/'.cache'/'matplotlib'))
+os.environ.setdefault('MPLCONFIGDIR',str(ROOT / '.cache' / 'mplconfig'))
 import numpy as np
 import pandas as pd
 import matplotlib

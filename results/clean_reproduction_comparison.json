@@ -1,5 +1,5 @@
 {
-  "other": "C:\\Users\\26255\\Documents\\Codex\\2026-09-08\\arxiv-md-latex-ai-llm-benchmark\\work\\clean_reproduction\\research",
+  "other": "independent_clean_rebuild",
   "score_arrays": {
     "arc.npz": "all named arrays exactly equal",
     "composite.npz": "all named arrays exactly equal",

@@ -2,7 +2,7 @@
 from pathlib import Path
 import sys,json,math
 import numpy as np
-ROOT=Path(__file__).resolve().parents[1];sys.path[:0]=[str(ROOT/'src'),str(ROOT.parents[1]/'work/deps')]
+ROOT=Path(__file__).resolve().parents[1];sys.path[:0]=[str(ROOT/'src')]
 from scipy.stats import norm
 from finite_eval import cs_path,stop_from_path,betting_decision,decide,label
 from run_experiments import population

@@ -1,7 +1,7 @@
 import unittest,itertools,math,sys
 from pathlib import Path
 from fractions import Fraction
-root=Path(__file__).resolve().parents[1];sys.path[:0]=[str(root/'scripts'),str(root/'src'),str(root.parents[1]/'work/deps')]
+root=Path(__file__).resolve().parents[1];sys.path[:0]=[str(root/'scripts'),str(root/'src')]
 from boundary_revision import planned_gaussian
 
 class BoundaryRevisionTests(unittest.TestCase):
